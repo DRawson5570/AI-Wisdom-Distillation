@@ -1,3 +1,3 @@
-# AI-Wisdom_Distillation
+# AI-Wisdom-Distillation
 Papers and code coming soon...
 >Questions/Comments: rawson.douglas@gmail.com
