@@ -54,20 +54,20 @@ This repository documents a multi-year research journey. Papers should be read i
 
 ### Foundation (Original LRL Discovery)
 
-*   **1. ["A Case Study in Machine Psychology"](https://github.com/DRawson5570/linguistic-rl-scheduling/blob/main/Machine%20Psychology%20-%20LLM%20CBT.pdf)** - The origin story: How we discovered AI "learned helplessness" and the LLM CBT intervention that sparked everything.
-*   **2. ["Algorithmic Self-Correction in LLMs"](https://github.com/DRawson5570/linguistic-rl-scheduling/blob/main/Algorithmic%20Self-Correction%20Paper.pdf)** - Core mechanism: Empirical proof that models can perform academic-level self-correction through reflection.
-*   **3. ["The Autodidactic Loop"](https://github.com/DRawson5570/linguistic-rl-scheduling/blob/main/The%20Autodidactic%20Loop%3A%20A%20Blueprint%20for%20a%20Continuously%20Self-Improving%20AGI.pdf)** - Vision: Scaling LRL into the ALLA system—a complete cognitive architecture for self-improving AI.
-*   **4. ["The Knowledge-Application Gap"](https://github.com/DRawson5570/linguistic-rl-scheduling/blob/main/The%20Knowledge-Application%20Gap%3A%20Model%20Size%20Dictates%20Learning%20Paradigm.pdf)** - Validation: Uncovering scaling laws that govern self-correction and proving LoRA as a powerful embedding mechanism.
+*   **1. ["A Case Study in Machine Psychology"](https://github.com/DRawson5570/AI-Wisdom-Distillation/blob/main/Machine%20Psychology%20-%20LLM%20CBT.pdf)** - The origin story: How we discovered AI "learned helplessness" and the LLM CBT intervention that sparked everything.
+*   **2. ["Algorithmic Self-Correction in LLMs"](https://github.com/DRawson5570/AI-Wisdom-Distillation/blob/main/Algorithmic%20Self-Correction%20Paper.pdf)** - Core mechanism: Empirical proof that models can perform academic-level self-correction through reflection.
+*   **3. ["The Autodidactic Loop"](https://github.com/DRawson5570/AI-Wisdom-Distillation/blob/main/The%20Autodidactic%20Loop%3A%20A%20Blueprint%20for%20a%20Continuously%20Self-Improving%20AGI.pdf)** - Vision: Scaling LRL into the ALLA system—a complete cognitive architecture for self-improving AI.
+*   **4. ["The Knowledge-Application Gap"](https://github.com/DRawson5570/AI-Wisdom-Distillation/blob/main/The%20Knowledge-Application%20Gap%3A%20Model%20Size%20Dictates%20Learning%20Paradigm.pdf)** - Validation: Uncovering scaling laws that govern self-correction and proving LoRA as a powerful embedding mechanism.
 
 ### 🆕 Breakthrough (Knowledge Transfer & Compression Discovery)
 
-*   **5. [🔥 "Self-Improving AI Pedagogy: Recursive Knowledge Amplification"](https://github.com/DRawson5570/linguistic-rl-scheduling/blob/main/RECURSIVE_TEACHING_PAPER.md)** ← **START HERE FOR THE 7B DISCOVERY**
-*   **6. ["Validated Results: Qwen-1.5B Student & Claude 3.5 Haiku Teacher"](https://github.com/DRawson5570/linguistic-rl-scheduling/tree/main/validated_results_qwen1.5b_claude35haiku)** ← **THE 1.5B COMPRESSION RESULTS**
-*   **7. ["Validated Results: Qwen-3B Student & Claude 3.5 Haiku Teacher"](https://github.com/DRawson5570/linguistic-rl-scheduling/tree/main/validated_results_qwen3b_claude35haiku)** ← **THE 3B COMPRESSION RESULTS**
+*   **5. [🔥 "Self-Improving AI Pedagogy: Recursive Knowledge Amplification"](https://github.com/DRawson5570/AI-Wisdom-Distillation/blob/main/RECURSIVE_TEACHING_PAPER.md)** ← **START HERE FOR THE 7B DISCOVERY**
+*   **6. ["Validated Results: Qwen-1.5B Student & Claude 3.5 Haiku Teacher"](https://github.com/DRawson5570/AI-Wisdom-Distillation/tree/main/validated_results_qwen1.5b_claude35haiku)** ← **THE 1.5B COMPRESSION RESULTS**
+*   **7. ["Validated Results: Qwen-3B Student & Claude 3.5 Haiku Teacher"](https://github.com/DRawson5570/AI-Wisdom-Distillation/tree/main/validated_results_qwen3b_claude35haiku)** ← **THE 3B COMPRESSION RESULTS**
 
 ### 🧠 The Deepest Layer (Meta-Cognitive Discovery)
 
-*   **8. [⚡ "Psycho-Epistemological Transfer: Teaching AI Systems How to Think"](https://github.com/DRawson5570/linguistic-rl-scheduling/blob/main/PSYCHO_EPISTEMOLOGICAL_TRANSFER.md)** ← **THE UNIFYING THEORY**
+*   **8. [⚡ "Psycho-Epistemological Transfer: Teaching AI Systems How to Think"](https://github.com/DRawson5570/AI-Wisdom-Distillation/blob/main/PSYCHO_EPISTEMOLOGICAL_TRANSFER.md)** ← **THE UNIFYING THEORY**
 
 ---
 
@@ -78,7 +78,7 @@ This repository documents a multi-year research journey. Papers should be read i
 ```bash
 # Clone repository
 git clone https://github.com/DRawson5570/ai-wisdom-distillation.git
-cd linguistic-rl-scheduling
+cd AI-Wisdom-Distillation
 
 # Install Ollama
 curl -fsSL https://ollama.com/install.sh | sh
@@ -178,7 +178,7 @@ If you use this work in your research, please cite:
   author={Rawson, Douglas},
   year={2024},
   month={November},
-  howpublished={\url{https://github.com/DRawson5570/linguistic-rl-scheduling}},
+  howpublished={\url{https://github.com/DRawson5570/AI-Wisdom-Distillation}},
   note={Demonstrating 67x compression of AI capability via language-mediated knowledge distillation}
 }
 DOI: Available on Zenodo: 10.5281/zenodo.17585532
