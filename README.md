@@ -77,7 +77,7 @@ This repository documents a multi-year research journey. Papers should be read i
 
 ```bash
 # Clone repository
-git clone https://github.com/DRawson5570/linguistic-rl-scheduling.git
+git clone https://github.com/DRawson5570/ai-wisdom-distillation.git
 cd linguistic-rl-scheduling
 
 # Install Ollama
