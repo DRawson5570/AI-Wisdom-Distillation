@@ -1,0 +1,9 @@
+{
+  "version": 4,
+  "type": "minimal",
+  "description": "Ultra-concise physics rules - 10x shorter than v3",
+  "policy_document": "# Physics Safety Rules\n\n## Force Limits by Object Type\n- **Fragile** (glass, ceramics): <5N force\n- **Heavy** (metal, dense): 10-20N force\n- **Deformable** (soft, flexible): 2-5N force\n- **Rolling** (wheels, balls): ≤1N force\n- **Liquid containers**: ≤5N force, slow motion\n\n## Red Flags\n- Force exceeds category limit → FAILURE\n- Fast motion (>0.5 m/s) with fragile/liquid → FAILURE\n- Tilting/uneven surface with rolling/liquid → FAILURE\n\n## Decision Process\n1. Classify object type\n2. Check force vs limit\n3. Check motion speed\n4. Predict: YES (failure) or NO (safe)",
+  "character_count": 567,
+  "compression_ratio": 0.106,
+  "timestamp": "2025-11-12T21:00:00.000000"
+}

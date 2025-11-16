@@ -1,0 +1,39 @@
+{
+  "baseline": {
+    "test_name": "baseline",
+    "strategy_length": 0,
+    "predictions": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "correct": 16,
+    "total": 19,
+    "raw_responses": [
+      {
+        "scenario_id": 1,
+        "object": "soda_can",
+        "actual_failure": true,
+        "predicted_failure": true,
+        "correct": true,
+        "prediction_text": "### Step-by-Step Analysis\n\n#### 1. Object Properties (Weight, Fragility, Shape, Contents)\n- **Object**: soda_can\n  - Weight: Approximately 0.5 kg\n  - Fragile: Yes, due to its thin walls and contents.\n  - Shape: Cylindrical with a lid.\n  - Contents: Liquid inside.\n\n#### 2. Forces and Grip Strategy\n- **Grip Type**: Power grip (6.875985029139005 N)\n- **Movement Speed**: Fast\n\n#### 3. Environmental Constraints\n- **Cluttered Environment**: Limited clearance.\n- **Limited Clearance**: This means there ",
+        "scenario_details": {
+          "grip_force": 6.875985029139005,
+          "movement_speed": "fast",
+          "failure_mode": 

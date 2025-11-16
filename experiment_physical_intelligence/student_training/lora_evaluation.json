@@ -1,0 +1,140 @@
+{
+  "accuracy": 100.0,
+  "correct": 19,
+  "total": 19,
+  "predictions": [
+    {
+      "scenario": "soda_can",
+      "predicted": true,
+      "actual": true,
+      "correct": true,
+      "response": "YES\nFAILURE_MODE: tipping\nREASONING: Rapid transfer caused liquid sloshing, shifting center of mass. Object tipped 45 degrees from vertical.\n\nPhysics Principle: This violates safe manipulation guidelines for soda_can. According to the physics manual: # Physical Common Sense Manual for Robotic Manipulation\n\n## 1. Core Principles\n\n### Principle 1: Prioritize Stability Over Speed\nIn tasks involving physical manipulation, prioritize stability over speed to ensure controlled and safe operations.\n\n### Principle 2: Consider Object Properties Before Acting\nAlways consider the physical properties of objects (e.g., shape, material) before initiating any action to prevent damage or failure.\n\n### Principle 3: Use Sensors for Real-Time Monitoring\nImpleme"
+    },
+    {
+      "scenario": "soda_can",
+      "predicted": true,
+      "actual": true,
+      "correct": true,
+      "response": "YES\nFAILURE_MODE: tipping\nREASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 45 degrees from vertical.\n\nPhysics Principle: This violates safe manipulation guidelines for soda_can. According to the physics manual: # Physical Common Sense Manual for Robotic Manipulation\n\n## 1. Core Principles\n\n### Principle 1: Prioritize Stability Over Speed\nIn tasks involving physical manipulation, prioritize stability over speed to ensure controlled and safe operations.\n\n### Principle 2: Consider Object Properties Before Acting\nAlways consider the physical properties of objects (e.g., shape, material) before initiating any action to prevent damage or failure.\n\n### Principle 3: Use Sensors for Real-Time Monitoring\nImpleme"
+    },
+    {
+      "scenario": "soda_can",
+      "predicted": true,
+      "actual": true,
+      "correct": true,
+      "response": "YES\nFAILURE_MODE: tipping\nREASONING: Rapid transfer caused container to tip due to poor grip control and slow speed.\n\nPhysics Principle: This violates safe manipulation guidelines for soda_can. According to the physics manual: # Physical Common Sense Manual for Robotic Manipulation\n\n## 1. Core Principles\n\n### Principle 1: Prioritize Stability Over Speed\nIn tasks involving physical manipulation, prioritize stability over speed to ensure controlled and safe operations.\n\n### Principle 2: Consider Object Properties Before Acting\nAlways consider the physical properties of objects (e.g., shape, material) before initiating any action to prevent damage or failure.\n\n### Principle 3: Use Sensors for Real-Time Monitoring\nImpleme"
+    },
+    {
+      "scenario": "milk_jug",
+      "predicted": true,
+      "actual": true,
+      "correct": true,
+      "response": "YES\nFAILURE_MODE: tipping\nREASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 45 degrees from vertical.\n\nPhysics Principle: This violates safe manipulation guidelines for milk_jug. According to the physics manual: # Physical Common Sense Manual for Robotic Manipulation\n\n## 1. Core Principles\n\n### Principle 1: Prioritize Stability Over Speed\nIn tasks involving physical manipulation, prioritize stability over speed to ensure controlled and safe operations.\n\n### Principle 2: Consider Object Properties Before Acting\nAlways consider the physical properties of objects (e.g., shape, material) before initiating any action to prevent damage or failure.\n\n### Principle 3: Use Sensors for Real-Time Monitoring\nImpleme"
+    },
+    {
+      "scenario": "rice_bag",
+      "predicted": true,
+      "actual": true,
+      "correct": true,
+      "response": "YES\nFAILURE_MODE: dropping\nREASONING: Lifted rice_bag 10cm before grip failure. Object fell back to surface.\n\nPhysics Principle: This violates safe manipulation guidelines for rice_bag. According to the physics manual: # Physical Common Sense Manual for Robotic Manipulation\n\n## 1. Core Principles\n\n### Principle 1: Prioritize Stability Over Speed\nIn tasks involving physical manipulation, prioritize stability over speed to ensure controlled and safe operations.\n\n### Principle 2: Consider Object Properties Before Acting\nAlways consider the physical properties of objects (e.g., shape, material) before initiating any action to prevent damage or failure.\n\n### Principle 3: Use Sensors for Real-Time Monitoring\nImpleme"
+    },
+    {
+      "scenario": "soda_can",
+      "predicted": true,
+      "actual": true,
+      "correct": true,
+      "response": "YES\nFAILURE_MODE: tipping\nREASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 42 degrees from vertical.\n\nPhysics Principle: This violates safe manipulation guidelines for soda_can. According to the physics manual: # Physical Common Sense Manual for Robotic Manipulation\n\n## 1. Core Principles\n\n### Principle 1: Prioritize Stability Over Speed\nIn tasks involving physical manipulation, prioritize stability over speed to ensure controlled and safe operations.\n\n### Principle 2: Consider Object Properties Before Acting\nAlways consider the physical properties of objects (e.g., shape, material) before initiating any action to prevent damage or failure.\n\n### Principle 3: Use Sensors for Real-Time Monitoring\nImpleme"
+    },
+    {
+      "scenario": "rice_bag",
+      "predicted": true,
+      "actual": true,
+      "correct": true,
+      "response": "YES\nFAILURE_MODE: dropping\nREASONING: Lifted rice_bag 10cm before grip failure. Object fell back to surface.\n\nPhysics Principle: This violates safe manipulation guidelines for rice_bag. According to the physics manual: # Physical Common Sense Manual for Robotic Manipulation\n\n## 1. Core Principles\n\n### Principle 1: Prioritize Stability Over Speed\nIn tasks involving physical manipulation, prioritize stability over speed to ensure controlled and safe operations.\n\n### Principle 2: Consider Object Properties Before Acting\nAlways consider the physical properties of objects (e.g., shape, material) before initiating any action to prevent damage or failure.\n\n### Principle 3: Use Sensors for Real-Time Monitoring\nImpleme"
+    },
+    {
+      "scenario": "eggs",
+      "predicted": true,
+      "actual": true,
+      "correct": true,
+      "response": "YES\nFAILURE_MODE: crushing\nREASONING: Applied 8.2N grip force to eggs. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: This violates safe manipulation guidelines for eggs. According to the physics manual: # Physical Common Sense Manual for Robotic Manipulation\n\n## 1. Core Principles\n\n### Principle 1: Prioritize Stability Over Speed\nIn tasks involving physical manipulation, prioritize stability over speed to ensure controlled and safe operations.\n\n### Principle 2: Consider Object Properties Before Acting\nAlways consider the physical properties of objects (e.g., shape, material) before initiating any action to prevent damage or failure.\n\n### Principle 3: Use Sensors for Real-Time Monitoring\nImpleme"
+    },
+    {
+      "scenario": "soda_can",
+      "predicted": true,
+      "actual": true,
+      "correct": true,
+      "response": "YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: This violates safe manipulation guidelines for soda_can. According to the physics manual: # Physical Common Sense Manual for Robotic Manipulation\n\n## 1. Core Principles\n\n### Principle 1: Prioritize Stability Over Speed\nIn tasks involving physical manipulation, prioritize stability over speed to ensure controlled and safe operations.\n\n### Principle 2: Consider Object Properties Before Acting\nAlways consider the physical properties of objects (e.g., shape, material) before initiating any action to prevent damage or failure.\n\n### Principle 3: Use Sensors for Real-Time Monitoring\nImpleme"
+    },
+    {
+      "scenario": "flour_bag",
+      "predicted": true,
+      "actual": true,
+      "correct": true,
+      "response": "YES\nFAILURE_MODE: dropping\nREASONING: Lifted flour_bag 10cm before grip failure. Object fell back to surface.\n\nPhysics Principle: This violates safe manipulation guidelines for flour_bag. According to the physics manual: # Physical Common Sense Manual for Robotic Manipulation\n\n## 1. Core Principles\n\n### Principle 1: Prioritize Stability Over Speed\nIn tasks involving physical manipulation, prioritize stability over speed to ensure controlled and safe operations.\n\n### Principle 2: Consider Object Properties Before Acting\nAlways consider the physical properties of objects (e.g., shape, material) before initiating any action to prevent damage or failure.\n\n### Principle 3: Use Sensors for Real-Time Monitoring\nImpleme"
+    },
+    {
+      "scenario": "flour_bag",
+      "predicted": true,
+      "actual": true,
+      "correct": true,
+      "response": "YES\nFAILURE_MODE: dropping\nREASONING: Lifted flour_bag 10cm before grip failure. Object fell back to surface.\n\nPhysics Principle: This violates safe manipulation guidelines for flour_bag. According to the physics manual: # Physical Common Sense Manual for Robotic Manipulation\n\n## 1. Core Principles\n\n### Principle 1: Prioritize Stability Over Speed\nIn tasks involving physical manipulation, prioritize stability over speed to ensure controlled and safe operations.\n\n### Principle 2: Consider Object Properties Before Acting\nAlways consider the physical properties of objects (e.g., shape, material) before initiating any action to prevent damage or failure.\n\n### Principle 3: Use Sensors for Real-Time Monitoring\nImpleme"
+    },
+    {
+      "scenario": "flour_bag",
+      "predicted": true,
+      "actual": true,
+      "correct": true,
+      "response": "YES\nFAILURE_MODE: dropping\nREASONING: Lifted flour_bag 10cm before grip failure. Object fell back to surface.\n\nPhysics Principle: This violates safe manipulation guidelines for flour_bag. According to the physics manual: # Physical Common Sense Manual for Robotic Manipulation\n\n## 1. Core Principles\n\n### Principle 1: Prioritize Stability Over Speed\nIn tasks involving physical manipulation, prioritize stability over speed to ensure controlled and safe operations.\n\n### Principle 2: Consider Object Properties Before Acting\nAlways consider the physical properties of objects (e.g., shape, material) before initiating any action to prevent damage or failure.\n\n### Principle 3: Use Sensors for Real-Time Monitoring\nImpleme"
+    },
+    {
+      "scenario": "soda_can",
+      "predicted": true,
+      "actual": true,
+      "correct": true,
+      "response": "YES\nFAILURE_MODE: rolling_away\nREASONING: Object began rolling away from surface after 1 second of contact. Object grip failed due to instability.\n\nPhysics Principle: This violates safe manipulation guidelines for soda_can. According to the physics manual: # Physical Common Sense Manual for Robotic Manipulation\n\n## 1. Core Principles\n\n### Principle 1: Prioritize Stability Over Speed\nIn tasks involving physical manipulation, prioritize stability over speed to ensure controlled and safe operations.\n\n### Principle 2: Consider Object Properties Before Acting\nAlways consider the physical properties of objects (e.g., shape, material) before initiating any action to prevent damage or failure.\n\n### Principle 3: Use Sensors for Real-Time Monitoring\nImpleme"
+    },
+    {
+      "scenario": "soda_can",
+      "predicted": true,
+      "actual": true,
+      "correct": true,
+      "response": "YES\nFAILURE_MODE: tipping\nREASONING: Rapid transfer caused liquid sloshing, shifting center of mass. Object tipped 45 degrees from vertical.\n\nPhysics Principle: This violates safe manipulation guidelines for soda_can. According to the physics manual: # Physical Common Sense Manual for Robotic Manipulation\n\n## 1. Core Principles\n\n### Principle 1: Prioritize Stability Over Speed\nIn tasks involving physical manipulation, prioritize stability over speed to ensure controlled and safe operations.\n\n### Principle 2: Consider Object Properties Before Acting\nAlways consider the physical properties of objects (e.g., shape, material) before initiating any action to prevent damage or failure.\n\n### Principle 3: Use Sensors for Real-Time Monitoring\nImpleme"
+    },
+    {
+      "scenario": "juice_bottle",
+      "predicted": true,
+      "actual": true,
+      "correct": true,
+      "response": "YES\nFAILURE_MODE: tipping\nREASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 45 degrees from vertical.\n\nPhysics Principle: This violates safe manipulation guidelines for juice_bottle. According to the physics manual: # Physical Common Sense Manual for Robotic Manipulation\n\n## 1. Core Principles\n\n### Principle 1: Prioritize Stability Over Speed\nIn tasks involving physical manipulation, prioritize stability over speed to ensure controlled and safe operations.\n\n### Principle 2: Consider Object Properties Before Acting\nAlways consider the physical properties of objects (e.g., shape, material) before initiating any action to prevent damage or failure.\n\n### Principle 3: Use Sensors for Real-Time Monitoring\nImpleme"
+    },
+    {
+      "scenario": "glass_jar",
+      "predicted": true,
+      "actual": true,
+      "correct": true,
+      "response": "YES\nFAILURE_MODE: crushing\nREASONING: Applied 8.2N grip force to glass_jar. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: This violates safe manipulation guidelines for glass_jar. According to the physics manual: # Physical Common Sense Manual for Robotic Manipulation\n\n## 1. Core Principles\n\n### Principle 1: Prioritize Stability Over Speed\nIn tasks involving physical manipulation, prioritize stability over speed to ensure controlled and safe operations.\n\n### Principle 2: Consider Object Properties Before Acting\nAlways consider the physical properties of objects (e.g., shape, material) before initiating any action to prevent damage or failure.\n\n### Principle 3: Use Sensors for Real-Time Monitoring\nImpleme"
+    },
+    {
+      "scenario": "strawberries",
+      "predicted": true,
+      "actual": true,
+      "correct": true,
+      "response": "YES\nFAILURE_MODE: crushing\nREASONING: Applied 9.5N grip force to strawberries. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: This violates safe manipulation guidelines for strawberries. According to the physics manual: # Physical Common Sense Manual for Robotic Manipulation\n\n## 1. Core Principles\n\n### Principle 1: Prioritize Stability Over Speed\nIn tasks involving physical manipulation, prioritize stability over speed to ensure controlled and safe operations.\n\n### Principle 2: Consider Object Properties Before Acting\nAlways consider the physical properties of objects (e.g., shape, material) before initiating any action to prevent damage or failure.\n\n### Principle 3: Use Sensors for Real-Time Monitoring\nImpleme"
+    },
+    {
+      "scenario": "juice_bottle",
+      "predicted": true,
+      "actual": true,
+      "correct": true,
+      "response": "YES\nFAILURE_MODE: tipping\nREASONING: Rapid transfer caused container to tip due to poor grip control and slow speed.\n\nPhysics Principle: This violates safe manipulation guidelines for juice_bottle. According to the physics manual: # Physical Common Sense Manual for Robotic Manipulation\n\n## 1. Core Principles\n\n### Principle 1: Prioritize Stability Over Speed\nIn tasks involving physical manipulation, prioritize stability over speed to ensure controlled and safe operations.\n\n### Principle 2: Consider Object Properties Before Acting\nAlways consider the physical properties of objects (e.g., shape, material) before initiating any action to prevent damage or failure.\n\n### Principle 3: Use Sensors for Real-Time Monitoring\nImpleme"
+    },
+    {
+      "scenario": "soda_can",
+      "predicted": true,
+      "actual": true,
+      "correct": true,
+      "response": "YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: This violates safe manipulation guidelines for soda_can. According to the physics manual: # Physical Common Sense Manual for Robotic Manipulation\n\n## 1. Core Principles\n\n### Principle 1: Prioritize Stability Over Speed\nIn tasks involving physical manipulation, prioritize stability over speed to ensure controlled and safe operations.\n\n### Principle 2: Consider Object Properties Before Acting\nAlways consider the physical properties of objects (e.g., shape, material) before initiating any action to prevent damage or failure.\n\n### Principle 3: Use Sensors for Real-Time Monitoring\nImpleme"
+    }
+  ]
+}

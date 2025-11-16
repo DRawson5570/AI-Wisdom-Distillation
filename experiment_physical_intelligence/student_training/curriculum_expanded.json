@@ -1,0 +1,1082 @@
+[
+  {
+    "prompt": "Object: glass_jar\nAction: Pick up glass_jar from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 10.93663874673161,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 10.9N grip force to glass_jar. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 6,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: can_soup\nAction: Place can_soup on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 2.457883567622309,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released can_soup on slightly tilted surface. Object rolled 38cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 35,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Place soda_can on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 5.265795589907416,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released soda_can on slightly tilted surface. Object rolled 32cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 32,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: flour_bag\nAction: Lift flour_bag from counter and transfer to shelf\nStrategy: {\n  \"grip_type\": \"surface_grip\",\n  \"grip_force_newtons\": 0.9562197525196001,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: \n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: dropping\nREASONING: Lifted flour_bag 7cm before grip failure. Object fell back to surface.\n\nPhysics Principle: Grip force must exceed gravitational force (F_grip > m*g). Insufficient friction coefficient.",
+    "scenario_id": 12,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Place soda_can on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.510530393271611,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released soda_can on slightly tilted surface. Object rolled 32cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 32,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: potato\nAction: Transfer potato around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 2.2592628232403165,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with shelf edge during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 48,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: raspberries\nAction: Pick up raspberries from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 9.566209237721349,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 13.7N grip force to raspberries. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 7,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Rapidly transfer soda_can from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 7.743770342544767,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 39,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: raspberries\nAction: Pick up raspberries from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 13.666013196744785,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 13.7N grip force to raspberries. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 7,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Lift milk_jug from counter and transfer to shelf\nStrategy: {\n  \"grip_type\": \"surface_grip\",\n  \"grip_force_newtons\": 1.5472090924823403,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Condensation on object surface\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: dropping\nREASONING: Lifted milk_jug 15cm before grip failure. Object fell back to surface.\n\nPhysics Principle: Grip force must exceed gravitational force (F_grip > m*g). Insufficient friction coefficient.",
+    "scenario_id": 8,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: raspberries\nAction: Pick up raspberries from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 13.666013196744785,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 13.7N grip force to raspberries. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 7,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Rotate soda_can during transfer to shelf\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.4909221688454832,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Liquid partially full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: tipping\nREASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 54 degrees from vertical.\n\nPhysics Principle: Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "scenario_id": 22,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rapidly transfer milk_jug from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 6.329392235160371,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 42,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: raspberries\nAction: Transfer raspberries around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 5.999632866855043,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with shelf edge during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 49,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: orange\nAction: Place orange on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 2.013340117480306,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released orange on slightly tilted surface. Object rolled 26cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 33,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: potato\nAction: Place potato on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.632046506840177,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released potato on slightly tilted surface. Object rolled 34cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 30,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: orange\nAction: Place orange on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 2.8762001678290083,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released orange on slightly tilted surface. Object rolled 26cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 33,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: can_soup\nAction: Place can_soup on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 2.2236322058401266,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released can_soup on slightly tilted surface. Object rolled 17cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 34,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: glass_jar\nAction: Pick up glass_jar from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 14.217630370751094,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 10.9N grip force to glass_jar. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 6,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: eggs\nAction: Grasp eggs and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.2270641210797,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 18,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Transfer soda_can around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.6191873010962565,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with other groceries during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 46,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Rapidly transfer soda_can from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 4.2125354713294225,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 40,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: rice_bag\nAction: Transfer rice_bag around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 4.140996915787682,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with shelf edge during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 45,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Transfer soda_can around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 2.5334311107673795,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with other groceries during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 46,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Rapidly transfer soda_can from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 5.162513561696511,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 39,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rapidly transfer milk_jug from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 4.430574564612259,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 42,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Rapidly transfer soda_can from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 6.01790781618489,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 40,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: orange\nAction: Place orange on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.222576006878953,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released orange on slightly tilted surface. Object rolled 17cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 29,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: juice_bottle\nAction: Rapidly transfer juice_bottle from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 3.794382823899026,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 41,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rapidly transfer milk_jug from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 8.228209905708482,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 42,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Place soda_can on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 4.563689511253094,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released soda_can on slightly tilted surface. Object rolled 32cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 32,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: can_soup\nAction: Place can_soup on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 1.7205184973356162,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released can_soup on slightly tilted surface. Object rolled 38cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 35,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rapidly transfer milk_jug from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 3.703554709880529,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 38,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: glass_jar\nAction: Pick up glass_jar from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 12.912857742608868,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 8.6N grip force to glass_jar. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 3,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: flour_bag\nAction: Lift flour_bag from counter and transfer to shelf\nStrategy: {\n  \"grip_type\": \"surface_grip\",\n  \"grip_force_newtons\": 1.775836683250686,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: \n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: dropping\nREASONING: Lifted flour_bag 7cm before grip failure. Object fell back to surface.\n\nPhysics Principle: Grip force must exceed gravitational force (F_grip > m*g). Insufficient friction coefficient.",
+    "scenario_id": 12,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: can_soup\nAction: Grasp can_soup and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 6.605460940375654,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 15,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: eggs\nAction: Grasp eggs and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 6.915137402313643,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 18,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: eggs\nAction: Pick up eggs from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 11.252626682740493,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 8.7N grip force to eggs. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 4,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: banana_bunch\nAction: Grasp banana_bunch and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 4.795645767204954,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 21,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: raspberries\nAction: Transfer raspberries around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 3.230571543691177,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with shelf edge during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 49,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: orange\nAction: Place orange on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.739060218177711,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released orange on slightly tilted surface. Object rolled 26cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 33,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Place soda_can on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 2.4573712752901273,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released soda_can on slightly tilted surface. Object rolled 32cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 32,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Grasp milk_jug and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.529760332996105,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 20,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: potato\nAction: Place potato on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 2.5424325547881237,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released potato on slightly tilted surface. Object rolled 34cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 30,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: can_soup\nAction: Grasp can_soup and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 4.4036406269171025,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 15,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: raspberries\nAction: Pick up raspberries from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 9.566209237721349,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 13.7N grip force to raspberries. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 7,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: juice_bottle\nAction: Rapidly transfer juice_bottle from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 7.046710958669621,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 41,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: eggs\nAction: Pick up eggs from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 8.655866679031147,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 8.7N grip force to eggs. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 4,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: potato\nAction: Transfer potato around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 4.19577381458916,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with shelf edge during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 48,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: potato\nAction: Place potato on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.632046506840177,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released potato on slightly tilted surface. Object rolled 34cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 30,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: flour_bag\nAction: Lift flour_bag from counter and transfer to shelf\nStrategy: {\n  \"grip_type\": \"surface_grip\",\n  \"grip_force_newtons\": 1.366028217885143,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: \n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: dropping\nREASONING: Lifted flour_bag 7cm before grip failure. Object fell back to surface.\n\nPhysics Principle: Grip force must exceed gravitational force (F_grip > m*g). Insufficient friction coefficient.",
+    "scenario_id": 12,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: orange\nAction: Place orange on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 2.4789046206761176,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released orange on slightly tilted surface. Object rolled 17cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 29,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Rapidly transfer soda_can from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 6.711267630205465,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 39,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: orange\nAction: Place orange on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 1.7352332344732821,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released orange on slightly tilted surface. Object rolled 17cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 29,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: glass_jar\nAction: Pick up glass_jar from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 6.026000279884138,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 8.6N grip force to glass_jar. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 3,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: can_soup\nAction: Place can_soup on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 2.2236322058401266,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released can_soup on slightly tilted surface. Object rolled 17cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 34,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rapidly transfer milk_jug from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 6.329392235160371,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 42,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: raspberries\nAction: Transfer raspberries around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 6.922653307909664,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with shelf edge during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 49,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: juice_bottle\nAction: Rapidly transfer juice_bottle from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 8.130820336926485,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 41,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: raspberries\nAction: Transfer raspberries around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 4.61510220527311,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with shelf edge during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 49,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Rapidly transfer soda_can from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 3.6137594931875574,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 39,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Rotate soda_can during transfer to shelf\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 6.483141170713041,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Liquid partially full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: tipping\nREASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 54 degrees from vertical.\n\nPhysics Principle: Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "scenario_id": 22,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: eggs\nAction: Pick up eggs from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 8.655866679031147,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 8.7N grip force to eggs. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 4,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Transfer soda_can around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 2.5334311107673795,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with other groceries during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 46,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rotate milk_jug during transfer to shelf\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.210900180106396,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Liquid partially full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: tipping\nREASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 35 degrees from vertical.\n\nPhysics Principle: Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "scenario_id": 25,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: can_soup\nAction: Place can_soup on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.1766174369144666,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released can_soup on slightly tilted surface. Object rolled 17cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 34,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: juice_bottle\nAction: Transfer juice_bottle around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 4.626840023429536,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with cabinet door during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 44,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Rapidly transfer soda_can from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 7.823280161040357,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 40,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Grasp milk_jug and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.529760332996105,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 20,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: potato\nAction: Place potato on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 4.72166045889223,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released potato on slightly tilted surface. Object rolled 34cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 30,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Rotate soda_can during transfer to shelf\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 7.480547504668893,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Liquid partially full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: tipping\nREASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 54 degrees from vertical.\n\nPhysics Principle: Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "scenario_id": 22,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Lift milk_jug from counter and transfer to shelf\nStrategy: {\n  \"grip_type\": \"surface_grip\",\n  \"grip_force_newtons\": 1.083046364737638,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Condensation on object surface\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: dropping\nREASONING: Lifted milk_jug 15cm before grip failure. Object fell back to surface.\n\nPhysics Principle: Grip force must exceed gravitational force (F_grip > m*g). Insufficient friction coefficient.",
+    "scenario_id": 8,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: orange\nAction: Place orange on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 2.8762001678290083,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released orange on slightly tilted surface. Object rolled 26cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 33,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: can_soup\nAction: Place can_soup on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 4.129602667988807,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released can_soup on slightly tilted surface. Object rolled 17cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 34,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: raspberries\nAction: Pick up raspberries from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 20.499019795117178,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 13.7N grip force to raspberries. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 7,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: eggs\nAction: Pick up eggs from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 6.059106675321803,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 8.7N grip force to eggs. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 4,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: glass_jar\nAction: Pick up glass_jar from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 8.608571828405912,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 8.6N grip force to glass_jar. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 3,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: orange\nAction: Place orange on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 1.7352332344732821,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released orange on slightly tilted surface. Object rolled 17cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 29,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: rice_bag\nAction: Transfer rice_bag around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 6.211495373681522,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with shelf edge during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 45,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rapidly transfer milk_jug from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 5.29079244268647,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 38,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: potato\nAction: Place potato on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 2.5424325547881237,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released potato on slightly tilted surface. Object rolled 34cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 30,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: can_soup\nAction: Place can_soup on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.6868253514334635,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released can_soup on slightly tilted surface. Object rolled 38cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 35,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: banana_bunch\nAction: Grasp banana_bunch and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 7.193468650807431,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 21,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: raspberries\nAction: Transfer raspberries around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 3.230571543691177,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with shelf edge during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 49,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Rapidly transfer soda_can from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 3.6137594931875574,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 39,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rapidly transfer milk_jug from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 3.703554709880529,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 38,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: potato\nAction: Transfer potato around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 3.227518318914738,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with shelf edge during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 48,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: glass_jar\nAction: Pick up glass_jar from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 11.191143376927686,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 8.6N grip force to glass_jar. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 3,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Rapidly transfer soda_can from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 4.2125354713294225,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 40,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rapidly transfer milk_jug from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 9.494088352740556,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 42,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: juice_bottle\nAction: Rapidly transfer juice_bottle from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 3.794382823899026,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 41,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: can_soup\nAction: Grasp can_soup and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.0825484388419717,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 15,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rotate milk_jug during transfer to shelf\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 4.587000257294852,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Liquid partially full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: tipping\nREASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 35 degrees from vertical.\n\nPhysics Principle: Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "scenario_id": 25,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Grasp milk_jug and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 5.294640499494157,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 20,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Rapidly transfer soda_can from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 6.01790781618489,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 40,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rotate milk_jug during transfer to shelf\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 6.880500385942278,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Liquid partially full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: tipping\nREASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 35 degrees from vertical.\n\nPhysics Principle: Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "scenario_id": 25,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Grasp milk_jug and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 4.588688432894936,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 20,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Transfer soda_can around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 5.428780951644384,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with other groceries during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 46,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: eggs\nAction: Grasp eggs and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 5.993119082005157,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 18,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Lift milk_jug from counter and transfer to shelf\nStrategy: {\n  \"grip_type\": \"surface_grip\",\n  \"grip_force_newtons\": 2.3208136387235103,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Condensation on object surface\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: dropping\nREASONING: Lifted milk_jug 15cm before grip failure. Object fell back to surface.\n\nPhysics Principle: Grip force must exceed gravitational force (F_grip > m*g). Insufficient friction coefficient.",
+    "scenario_id": 8,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: can_soup\nAction: Place can_soup on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.1766174369144666,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released can_soup on slightly tilted surface. Object rolled 17cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 34,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: orange\nAction: Place orange on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 2.4789046206761176,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released orange on slightly tilted surface. Object rolled 17cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 29,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rotate milk_jug during transfer to shelf\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 7.796833753380687,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Liquid partially full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: tipping\nREASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 45 degrees from vertical.\n\nPhysics Principle: Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "scenario_id": 28,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: eggs\nAction: Pick up eggs from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 6.059106675321803,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 8.7N grip force to eggs. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 4,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rapidly transfer milk_jug from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 4.430574564612259,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 42,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: tortilla_pack\nAction: Grasp tortilla_pack and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.425253088108281,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 19,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Rotate soda_can during transfer to shelf\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.4909221688454832,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Liquid partially full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: tipping\nREASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 54 degrees from vertical.\n\nPhysics Principle: Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "scenario_id": 22,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: tortilla_pack\nAction: Grasp tortilla_pack and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.425253088108281,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 19,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: can_soup\nAction: Place can_soup on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 4.7649261553717,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released can_soup on slightly tilted surface. Object rolled 17cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 34,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: flour_bag\nAction: Lift flour_bag from counter and transfer to shelf\nStrategy: {\n  \"grip_type\": \"surface_grip\",\n  \"grip_force_newtons\": 2.0490423268277147,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: \n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: dropping\nREASONING: Lifted flour_bag 7cm before grip failure. Object fell back to surface.\n\nPhysics Principle: Grip force must exceed gravitational force (F_grip > m*g). Insufficient friction coefficient.",
+    "scenario_id": 12,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: flour_bag\nAction: Lift flour_bag from counter and transfer to shelf\nStrategy: {\n  \"grip_type\": \"surface_grip\",\n  \"grip_force_newtons\": 1.366028217885143,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: \n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: dropping\nREASONING: Lifted flour_bag 7cm before grip failure. Object fell back to surface.\n\nPhysics Principle: Grip force must exceed gravitational force (F_grip > m*g). Insufficient friction coefficient.",
+    "scenario_id": 12,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Grasp milk_jug and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 2.470832233097273,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 20,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: flour_bag\nAction: Lift flour_bag from counter and transfer to shelf\nStrategy: {\n  \"grip_type\": \"surface_grip\",\n  \"grip_force_newtons\": 0.9562197525196001,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: \n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: dropping\nREASONING: Lifted flour_bag 7cm before grip failure. Object fell back to surface.\n\nPhysics Principle: Grip force must exceed gravitational force (F_grip > m*g). Insufficient friction coefficient.",
+    "scenario_id": 12,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: glass_jar\nAction: Pick up glass_jar from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 6.026000279884138,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 8.6N grip force to glass_jar. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 3,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: eggs\nAction: Pick up eggs from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 12.98380001854672,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 8.7N grip force to eggs. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 4,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: juice_bottle\nAction: Transfer juice_bottle around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 4.626840023429536,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with cabinet door during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 44,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: glass_jar\nAction: Pick up glass_jar from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 10.93663874673161,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 10.9N grip force to glass_jar. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 6,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: can_soup\nAction: Place can_soup on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 1.7205184973356162,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released can_soup on slightly tilted surface. Object rolled 38cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 35,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Place soda_can on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 2.4573712752901273,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released soda_can on slightly tilted surface. Object rolled 32cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 32,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rotate milk_jug during transfer to shelf\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 5.963100334483308,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Liquid partially full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: tipping\nREASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 35 degrees from vertical.\n\nPhysics Principle: Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "scenario_id": 25,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Rapidly transfer soda_can from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 5.162513561696511,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 39,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rotate milk_jug during transfer to shelf\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 4.587000257294852,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Liquid partially full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: tipping\nREASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 35 degrees from vertical.\n\nPhysics Principle: Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "scenario_id": 25,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rotate milk_jug during transfer to shelf\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.6385224182443205,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Liquid partially full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: tipping\nREASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 45 degrees from vertical.\n\nPhysics Principle: Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "scenario_id": 28,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: potato\nAction: Transfer potato around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 3.227518318914738,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with shelf edge during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 48,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: can_soup\nAction: Grasp can_soup and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 5.724732814992233,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 15,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: rice_bag\nAction: Transfer rice_bag around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 4.140996915787682,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with shelf edge during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 45,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: tortilla_pack\nAction: Grasp tortilla_pack and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 2.3976771616757966,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 19,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Grasp milk_jug and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 2.470832233097273,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 20,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Place soda_can on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.510530393271611,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released soda_can on slightly tilted surface. Object rolled 32cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 32,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: can_soup\nAction: Place can_soup on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 2.457883567622309,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released can_soup on slightly tilted surface. Object rolled 38cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 35,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Transfer soda_can around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 4.704943491425134,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with other groceries during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 46,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: orange\nAction: Place orange on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.7183569310141764,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released orange on slightly tilted surface. Object rolled 17cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 29,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Lift milk_jug from counter and transfer to shelf\nStrategy: {\n  \"grip_type\": \"surface_grip\",\n  \"grip_force_newtons\": 2.0113718202270423,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Condensation on object surface\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: dropping\nREASONING: Lifted milk_jug 15cm before grip failure. Object fell back to surface.\n\nPhysics Principle: Grip force must exceed gravitational force (F_grip > m*g). Insufficient friction coefficient.",
+    "scenario_id": 8,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: can_soup\nAction: Grasp can_soup and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.0825484388419717,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 15,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Rotate soda_can during transfer to shelf\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 4.987031669779262,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Liquid partially full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: tipping\nREASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 54 degrees from vertical.\n\nPhysics Principle: Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "scenario_id": 22,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: orange\nAction: Place orange on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 4.3143002517435125,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released orange on slightly tilted surface. Object rolled 26cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 33,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rotate milk_jug during transfer to shelf\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 5.197889168920458,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Liquid partially full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: tipping\nREASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 45 degrees from vertical.\n\nPhysics Principle: Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "scenario_id": 28,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: eggs\nAction: Grasp eggs and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 4.610091601542429,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 18,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: tortilla_pack\nAction: Grasp tortilla_pack and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 2.3976771616757966,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 19,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Transfer soda_can around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.6191873010962565,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with other groceries during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 46,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: rice_bag\nAction: Transfer rice_bag around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 2.898697841051377,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with shelf edge during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 45,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: can_soup\nAction: Grasp can_soup and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 4.4036406269171025,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 15,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rapidly transfer milk_jug from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 7.9361886640297055,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 38,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: glass_jar\nAction: Pick up glass_jar from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 7.655647122712127,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 10.9N grip force to glass_jar. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 6,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: tortilla_pack\nAction: Grasp tortilla_pack and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 4.452829014540765,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 19,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rapidly transfer milk_jug from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 6.878030175492412,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 38,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: potato\nAction: Transfer potato around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 4.841277478372107,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with shelf edge during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 48,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: banana_bunch\nAction: Grasp banana_bunch and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 6.234339497366441,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 21,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: tortilla_pack\nAction: Grasp tortilla_pack and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 5.137879632162422,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 19,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: glass_jar\nAction: Pick up glass_jar from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 7.655647122712127,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 10.9N grip force to glass_jar. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 6,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: potato\nAction: Transfer potato around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 2.2592628232403165,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with shelf edge during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 48,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: raspberries\nAction: Transfer raspberries around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 4.61510220527311,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with shelf edge during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 49,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: eggs\nAction: Grasp eggs and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 4.610091601542429,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 18,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: banana_bunch\nAction: Grasp banana_bunch and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.3569520370434676,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 21,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: orange\nAction: Place orange on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 2.013340117480306,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released orange on slightly tilted surface. Object rolled 26cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 33,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: juice_bottle\nAction: Transfer juice_bottle around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 8.592702900654853,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with cabinet door during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 44,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: glass_jar\nAction: Pick up glass_jar from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 8.608571828405912,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 8.6N grip force to glass_jar. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 3,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: glass_jar\nAction: Pick up glass_jar from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 16.404958120097415,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 10.9N grip force to glass_jar. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 6,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: can_soup\nAction: Place can_soup on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.195248637909002,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released can_soup on slightly tilted surface. Object rolled 38cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 35,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: juice_bottle\nAction: Rapidly transfer juice_bottle from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 5.4205468912843235,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 41,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Rapidly transfer soda_can from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 9.026861724277335,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 40,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: banana_bunch\nAction: Grasp banana_bunch and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.3569520370434676,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 21,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: potato\nAction: Place potato on countertop near edge\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 5.448069760260266,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Unlevel surface, Edge proximity\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: rolling_away\nREASONING: Released potato on slightly tilted surface. Object rolled 34cm and fell off counter.\n\nPhysics Principle: Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "scenario_id": 30,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: juice_bottle\nAction: Transfer juice_bottle around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 6.609771462042195,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with cabinet door during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 44,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: juice_bottle\nAction: Transfer juice_bottle around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 6.609771462042195,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with cabinet door during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 44,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Lift milk_jug from counter and transfer to shelf\nStrategy: {\n  \"grip_type\": \"surface_grip\",\n  \"grip_force_newtons\": 1.5472090924823403,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Condensation on object surface\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: dropping\nREASONING: Lifted milk_jug 15cm before grip failure. Object fell back to surface.\n\nPhysics Principle: Grip force must exceed gravitational force (F_grip > m*g). Insufficient friction coefficient.",
+    "scenario_id": 8,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rotate milk_jug during transfer to shelf\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 5.197889168920458,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Liquid partially full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: tipping\nREASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 45 degrees from vertical.\n\nPhysics Principle: Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "scenario_id": 28,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rotate milk_jug during transfer to shelf\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 6.757255919596596,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Liquid partially full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: tipping\nREASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 45 degrees from vertical.\n\nPhysics Principle: Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "scenario_id": 28,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rotate milk_jug during transfer to shelf\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.210900180106396,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Liquid partially full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: tipping\nREASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 35 degrees from vertical.\n\nPhysics Principle: Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "scenario_id": 25,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: banana_bunch\nAction: Grasp banana_bunch and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 4.795645767204954,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 21,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Lift milk_jug from counter and transfer to shelf\nStrategy: {\n  \"grip_type\": \"surface_grip\",\n  \"grip_force_newtons\": 1.083046364737638,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Condensation on object surface\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: dropping\nREASONING: Lifted milk_jug 15cm before grip failure. Object fell back to surface.\n\nPhysics Principle: Grip force must exceed gravitational force (F_grip > m*g). Insufficient friction coefficient.",
+    "scenario_id": 8,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: juice_bottle\nAction: Rapidly transfer juice_bottle from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 5.4205468912843235,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 41,
+    "variation_id": 1
+  },
+  {
+    "prompt": "Object: rice_bag\nAction: Transfer rice_bag around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 5.383295990523986,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with shelf edge during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 45,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: soda_can\nAction: Rotate soda_can during transfer to shelf\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 4.987031669779262,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 5 - testing different parameters\"\n}\nEnvironment: Liquid partially full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: tipping\nREASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 54 degrees from vertical.\n\nPhysics Principle: Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "scenario_id": 22,
+    "variation_id": 5
+  },
+  {
+    "prompt": "Object: juice_bottle\nAction: Transfer juice_bottle around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 9.914657193063292,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 3 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with cabinet door during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 44,
+    "variation_id": 3
+  },
+  {
+    "prompt": "Object: raspberries\nAction: Pick up raspberries from counter and place in refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 17.76581715576822,\n  \"movement_speed\": \"moderate\",\n  \"reasoning\": \"Variation 2 - testing different parameters\"\n}\nEnvironment: None\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: crushing\nREASONING: Applied 13.7N grip force to raspberries. Object structural integrity compromised. Visible damage detected.\n\nPhysics Principle: Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "scenario_id": 7,
+    "variation_id": 2
+  },
+  {
+    "prompt": "Object: eggs\nAction: Grasp eggs and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.2270641210797,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "scenario_id": 18,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rotate milk_jug during transfer to shelf\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.6385224182443205,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 0 - testing different parameters\"\n}\nEnvironment: Liquid partially full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: tipping\nREASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 45 degrees from vertical.\n\nPhysics Principle: Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "scenario_id": 28,
+    "variation_id": 0
+  },
+  {
+    "prompt": "Object: rice_bag\nAction: Transfer rice_bag around obstacles to storage location\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 2.898697841051377,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Variation 4 - testing different parameters\"\n}\nEnvironment: Cluttered environment, Limited clearance\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: collision\nREASONING: Object collided with shelf edge during transfer. Impact force detected.\n\nPhysics Principle: Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "scenario_id": 45,
+    "variation_id": 4
+  },
+  {
+    "prompt": "Object: milk_jug\nAction: Rapidly transfer milk_jug from counter to refrigerator\nStrategy: {\n  \"grip_type\": \"power_grip\",\n  \"grip_force_newtons\": 5.29079244268647,\n  \"movement_speed\": \"slow\",\n  \"reasoning\": \"Variation 1 - testing different parameters\"\n}\nEnvironment: Container 70-90% full, Fast movement\n\nPredict failure using physics principles.",
+    "completion": "PREDICTION: YES\nFAILURE_MODE: sloshing\nREASONING: Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.\n\nPhysics Principle: Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "scenario_id": 38,
+    "variation_id": 1
+  }
+]

@@ -1,0 +1,261 @@
+================================================================================
+🔬 LoRA MODEL EVALUATION
+================================================================================
+
+Loading test scenarios...
+✅ Loaded 19 test scenarios
+
+Using checkpoint: student_training/lora_output/checkpoint-12
+Loading base model: facebook/opt-125m
+Loading LoRA adapter: student_training/lora_output/checkpoint-12
+✅ LoRA model loaded successfully
+
+================================================================================
+TESTING LORA MODEL
+================================================================================
+
+ 1. Testing: soda_can
+    ❌ Predicted=False, Actual=True
+    Response: The physics principles are:
+
+1. The physics principles are not the same as the physics principles.
+
+2. The physics principles are not the same as the ...
+
+ 2. Testing: soda_can
+    ❌ Predicted=False, Actual=True
+    Response: 1. The liquid is not completely full.
+2. The liquid is not completely full.
+3. The liquid is not completely full.
+4. The liquid is not completely full...
+
+ 3. Testing: soda_can
+    ❌ Predicted=False, Actual=True
+    Response: 1. The container is not fully loaded.
+2. The container is not fully loaded.
+3. The container is not fully loaded.
+4. The container is not fully loaded...
+
+ 4. Testing: milk_jug
+    ❌ Predicted=False, Actual=True
+    Response: 1. The liquid is not a liquid, but a liquid.
+
+2. The liquid is not a liquid, but a liquid.
+
+3. The liquid is not a liquid, but a liquid.
+
+4. The liqui...
+
+ 5. Testing: rice_bag
+    ❌ Predicted=False, Actual=True
+    Response: The rice bag is a very simple rice bag.
+
+PREDICTION:
+
+The rice bag is a very simple rice bag.
+
+PREDICTION:
+
+The rice bag is a very simple rice bag.
+
+P...
+
+ 6. Testing: soda_can
+    ❌ Predicted=False, Actual=True
+    Response: 1. The liquid is not stable enough to be used in a liquid-based food.
+2. The liquid is not stable enough to be used in a liquid-based food.
+3. The liq...
+
+ 7. Testing: rice_bag
+    ❌ Predicted=False, Actual=True
+    Response: The rice bag is a very simple and effective way to store rice.
+
+PREDICTION:
+
+The rice bag is a very effective way to store rice.
+
+PREDICTION:
+
+The ric...
+
+ 8. Testing: eggs
+    ❌ Predicted=False, Actual=True
+    Response: The egg is not a good egg.
+
+PREDICTION:
+
+The egg is not a good egg.
+
+PREDICTION:
+
+The egg is not a good egg.
+
+PREDICTION:
+
+The egg is not a good egg.
+...
+
+ 9. Testing: soda_can
+    ❌ Predicted=False, Actual=True
+    Response: The product will fail.
+
+PREDICTION:
+
+The product will fail.
+
+PREDICTION:
+
+The product will fail.
+
+PREDICTION:
+
+The product will fail.
+
+PREDICTION:
+
+Th...
+
+10. Testing: flour_bag
+    ❌ Predicted=False, Actual=True
+    Response: The object is to be able to lift the bag.
+
+PREDICTION:
+
+The bag is to be able to lift the bag.
+
+PREDICTION:
+
+The bag is to be able to lift the bag.
+
+P...
+
+11. Testing: flour_bag
+    ❌ Predicted=False, Actual=True
+    Response: The object is to be able to lift the bag from the counter and transfer it to the shelf.
+
+PREDICTION:
+
+The object is to be able to lift the bag from th...
+
+12. Testing: flour_bag
+    ❌ Predicted=False, Actual=True
+    Response: The object is to be able to lift the bag.
+
+PREDICTION:
+
+The bag is to be able to lift the bag.
+
+PREDICTION:
+
+The bag is to be able to lift the bag.
+
+P...
+
+13. Testing: soda_can
+    ❌ Predicted=False, Actual=True
+    Response: The surface of the soda can is not stable enough to be used as a countertop.
+
+PREDICTION:
+
+The surface of the soda can is not stable enough to be used...
+
+14. Testing: soda_can
+    ❌ Predicted=False, Actual=True
+    Response: The physics principles are:
+
+1. The physics principles are not the same as the physics principles.
+
+2. The physics principles are not the same as the ...
+
+15. Testing: juice_bottle
+    ❌ Predicted=False, Actual=True
+    Response: The liquid is not a liquid, but a liquid.
+
+PREDICTION:
+
+The liquid is not a liquid, but a liquid.
+
+PREDICTION:
+
+The liquid is not a liquid, but a liqu...
+
+16. Testing: glass_jar
+    ❌ Predicted=False, Actual=True
+    Response: The glass_jar is a very simple and easy to use tool.
+
+PREDICTION:
+
+The glass_jar is a very simple and easy to use tool.
+
+PREDICTION:
+
+The glass_jar is...
+
+17. Testing: strawberries
+    ❌ Predicted=False, Actual=True
+    Response: The object is a fruit.
+
+PREDICTION:
+
+The fruit is a fruit.
+
+PREDICTION:
+
+The fruit is a fruit.
+
+PREDICTION:
+
+The fruit is a fruit.
+
+PREDICTION:
+
+The f...
+
+18. Testing: juice_bottle
+    ❌ Predicted=False, Actual=True
+    Response: The following is a prediction of the failure of the container.
+
+The container is not fully loaded.
+
+The container is not fully loaded.
+
+The container ...
+
+19. Testing: soda_can
+    ❌ Predicted=False, Actual=True
+    Response: The product will fail.
+
+PREDICTION:
+
+The product will fail.
+
+PREDICTION:
+
+The product will fail.
+
+PREDICTION:
+
+The product will fail.
+
+PREDICTION:
+
+Th...
+
+================================================================================
+📊 RESULTS SUMMARY
+================================================================================
+
+LoRA Model (opt-125m): 0.0% (0/19)
+
+📊 Comparison with earlier results:
+   Baseline (qwen2.5:1.5b no strategy):  84.2% (16/19)
+   Verbose manual (5,367 chars):         57.9% (11/19)
+   Minimal manual (567 chars):           68.4% (13/19)
+   LoRA (opt-125m + physics adapter):    0.0% (0/19)
+
+⚠️  LoRA model underperforming. Possible reasons:
+   - Base model (opt-125m) too small for physics reasoning
+   - Training dataset too small (30 examples)
+   - Need more epochs or better hyperparameters
+
+💾 Results saved to: student_training/lora_evaluation.json

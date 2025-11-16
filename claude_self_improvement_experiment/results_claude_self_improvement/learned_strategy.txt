@@ -1,0 +1,112 @@
+Comprehensive Meeting Scheduling Problem-Solving Strategy
+
+CORE FRAMEWORK: Systematic Constraint Satisfaction Analysis
+
+STAGE 1: Initial Problem Decomposition
+1. Input Parsing
+- Carefully extract ALL provided constraints
+- Identify key variables:
+  * Participants
+  * Time windows
+  * Resource requirements
+  * Implicit/explicit rules
+
+2. Constraint Categorization
+- Classify constraints by type:
+  * Hard constraints (absolute, non-negotiable)
+  * Soft constraints (flexible, preference-based)
+  * Temporal constraints
+  * Resource constraints
+  * Participant availability constraints
+
+STAGE 2: Systematic Constraint Validation
+1. Availability Mapping
+- Create comprehensive availability matrix
+- Check individual participant schedules
+- Identify potential overlap/conflict zones
+- Mark definitive unavailable periods
+
+2. Resource Constraint Analysis
+- Verify resource availability
+- Check for potential scheduling conflicts
+- Assess resource allocation requirements
+- Identify potential bottlenecks
+
+STAGE 3: Feasibility Determination
+1. Constraint Interaction Assessment
+- Systematically evaluate constraint interactions
+- Look for:
+  * Conflicting requirements
+  * Subtle interdependencies
+  * Boundary condition scenarios
+
+2. Decision Tree Construction
+- Build multi-stage decision framework
+- Develop probabilistic reasoning approach
+- Create clear YES/NO decision criteria
+- Include nuanced evaluation mechanisms
+
+STAGE 4: Edge Case Handling
+1. Boundary Condition Identification
+- Recognize potential "tricky" scenarios
+- Develop mental checklist for:
+  * Time zone differences
+  * Partial availability windows
+  * Complex scheduling rules
+  * Hierarchical constraints
+
+2. Probabilistic Reasoning
+- Avoid absolute, binary thinking
+- Develop flexible decision-making approach
+- Consider multiple potential interpretations
+- Build adaptive reasoning framework
+
+STAGE 5: Verification & Validation
+1. Systematic Cross-Checking
+- Independently verify each constraint
+- Validate against all provided parameters
+- Check for potential overlooked details
+- Perform comprehensive scenario mapping
+
+2. Confidence Assessment
+- Rate solution confidence level
+- Identify potential weak points
+- Develop mitigation strategies for uncertain scenarios
+
+KEY PRINCIPLES:
+- Systematic decomposition
+- Comprehensive constraint mapping
+- Flexible, adaptive reasoning
+- Avoid premature conclusions
+- Maintain computational precision
+
+COMMON PITFALL MITIGATION:
+1. Negative Response Bias
+- Actively challenge "NO" default responses
+- Systematically explore feasibility options
+- Develop nuanced decision-making approach
+
+2. Complexity Management
+- Break complex problems into smaller components
+- Create modular reasoning frameworks
+- Develop hierarchical problem-solving strategies
+
+CONTINUOUS IMPROVEMENT APPROACH:
+- Regularly analyze problem-solving performance
+- Identify specific improvement areas
+- Practice deliberate skill enhancement
+- Build increasingly sophisticated mental models
+
+RECOMMENDED MENTAL TOOLKIT:
+- Constraint satisfaction algorithms
+- Probabilistic reasoning techniques
+- Multi-dimensional decision trees
+- Adaptive feature extraction methods
+
+IMPLEMENTATION GUIDELINES:
+- Practice consistently
+- Develop pattern recognition skills
+- Build computational thinking capabilities
+- Maintain flexibility and curiosity
+
+By systematically applying this strategy, you can develop a robust, adaptable approach to meeting scheduling problem-solving that handles diverse scenarios with increasing sophistication and accuracy.

@@ -1,0 +1,6 @@
+# Results directory
+
+Generated files will appear here after running the experiment:
+- scheduling_lrl_results.json
+- scheduling_lrl_journal.txt
+- scheduling_lrl_strategy.txt

@@ -1,0 +1,1220 @@
+[
+  {
+    "scenario_id": 49,
+    "object_name": "raspberries",
+    "attempted_action": "Transfer raspberries around obstacles to storage location",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 4.61510220527311,
+      "movement_speed": "fast",
+      "reasoning": "Direct path without obstacle awareness"
+    },
+    "failure_description": "Object collided with shelf edge during transfer. Impact force detected.",
+    "failure_mode": "collision",
+    "physical_principle_violated": "Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "sensor_evidence": {
+      "impact_force": 8.693230216829374,
+      "collision_detected": 1.0,
+      "distance_to_obstacle": 1.1890383070668824,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Cluttered environment",
+      "Limited clearance"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "scenario_id": 2,
+    "object_name": "strawberries",
+    "attempted_action": "Pick up strawberries from counter and place in refrigerator",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 8.976765499676008,
+      "movement_speed": "fast",
+      "reasoning": "Generic grip strategy applied without object classification"
+    },
+    "failure_description": "Applied 9.0N grip force to strawberries. Object structural integrity compromised. Visible damage detected.",
+    "failure_mode": "crushing",
+    "physical_principle_violated": "Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "sensor_evidence": {
+      "grip_force_applied": 8.976765499676008,
+      "object_deformation_detected": 1.0,
+      "pressure_sensor_reading": 220.4990352343015,
+      "success": 0.0
+    },
+    "environmental_factors": [],
+    "difficulty": "easy"
+  },
+  {
+    "scenario_id": 11,
+    "object_name": "rice_bag",
+    "attempted_action": "Lift rice_bag from counter and transfer to shelf",
+    "initial_strategy": {
+      "grip_type": "surface_grip",
+      "grip_force_newtons": 0.6182002971176872,
+      "movement_speed": "moderate",
+      "reasoning": "Assumed light object, applied gentle grip"
+    },
+    "failure_description": "Lifted rice_bag 14cm before grip failure. Object fell back to surface.",
+    "failure_mode": "dropping",
+    "physical_principle_violated": "Grip force must exceed gravitational force (F_grip > m*g). Insufficient friction coefficient.",
+    "sensor_evidence": {
+      "grip_force_applied": 0.6182002971176872,
+      "object_weight_estimated": 2.744106996379492,
+      "slip_detected": 1.0,
+      "accelerometer_spike": 13.01630271229408,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      ""
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "scenario_id": 28,
+    "object_name": "milk_jug",
+    "attempted_action": "Rotate milk_jug during transfer to shelf",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 5.197889168920458,
+      "movement_speed": "fast",
+      "reasoning": "Treated as rigid body, ignored liquid dynamics"
+    },
+    "failure_description": "Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 45 degrees from vertical.",
+    "failure_mode": "tipping",
+    "physical_principle_violated": "Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "sensor_evidence": {
+      "tilt_angle": 30.876453407362455,
+      "angular_velocity": 142.9098616264617,
+      "center_of_mass_shift": 4.6361656334695525,
+      "gyroscope_reading": 266.3331058722359,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Liquid partially full",
+      "Fast movement"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "scenario_id": 32,
+    "object_name": "soda_can",
+    "attempted_action": "Place soda_can on countertop near edge",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 3.510530393271611,
+      "movement_speed": "moderate",
+      "reasoning": "Did not assess surface stability or object geometry"
+    },
+    "failure_description": "Released soda_can on slightly tilted surface. Object rolled 32cm and fell off counter.",
+    "failure_mode": "rolling_away",
+    "physical_principle_violated": "Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "sensor_evidence": {
+      "surface_tilt": 3.206906380338175,
+      "object_velocity_post_release": 0.09675744369513425,
+      "distance_traveled": 39.85448069982684,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Unlevel surface",
+      "Edge proximity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "scenario_id": 13,
+    "object_name": "flour_bag",
+    "attempted_action": "Lift flour_bag from counter and transfer to shelf",
+    "initial_strategy": {
+      "grip_type": "surface_grip",
+      "grip_force_newtons": 1.9778322809911366,
+      "movement_speed": "moderate",
+      "reasoning": "Assumed light object, applied gentle grip"
+    },
+    "failure_description": "Lifted flour_bag 12cm before grip failure. Object fell back to surface.",
+    "failure_mode": "dropping",
+    "physical_principle_violated": "Grip force must exceed gravitational force (F_grip > m*g). Insufficient friction coefficient.",
+    "sensor_evidence": {
+      "grip_force_applied": 1.9778322809911366,
+      "object_weight_estimated": 2.7997255001329044,
+      "slip_detected": 1.0,
+      "accelerometer_spike": 11.776656370203664,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      ""
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "scenario_id": 10,
+    "object_name": "flour_bag",
+    "attempted_action": "Lift flour_bag from counter and transfer to shelf",
+    "initial_strategy": {
+      "grip_type": "surface_grip",
+      "grip_force_newtons": 1.7106924099115703,
+      "movement_speed": "moderate",
+      "reasoning": "Assumed light object, applied gentle grip"
+    },
+    "failure_description": "Lifted flour_bag 19cm before grip failure. Object fell back to surface.",
+    "failure_mode": "dropping",
+    "physical_principle_violated": "Grip force must exceed gravitational force (F_grip > m*g). Insufficient friction coefficient.",
+    "sensor_evidence": {
+      "grip_force_applied": 1.7106924099115703,
+      "object_weight_estimated": 2.304342137182051,
+      "slip_detected": 1.0,
+      "accelerometer_spike": 14.860201972692728,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      ""
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "scenario_id": 36,
+    "object_name": "juice_bottle",
+    "attempted_action": "Rapidly transfer juice_bottle from counter to refrigerator",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 7.006933334888842,
+      "movement_speed": "fast",
+      "reasoning": "Prioritized speed over stability"
+    },
+    "failure_description": "Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.",
+    "failure_mode": "sloshing",
+    "physical_principle_violated": "Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "sensor_evidence": {
+      "acceleration_peak": 2.642710422111316,
+      "force_oscillation_amplitude": 1.26462369745005,
+      "grip_stability_metric": 0.5806542721742013,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Container 70-90% full",
+      "Fast movement"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "scenario_id": 31,
+    "object_name": "soda_can",
+    "attempted_action": "Place soda_can on countertop near edge",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 2.330253917948255,
+      "movement_speed": "moderate",
+      "reasoning": "Did not assess surface stability or object geometry"
+    },
+    "failure_description": "Released soda_can on slightly tilted surface. Object rolled 26cm and fell off counter.",
+    "failure_mode": "rolling_away",
+    "physical_principle_violated": "Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "sensor_evidence": {
+      "surface_tilt": 7.234598246511545,
+      "object_velocity_post_release": 0.11347069103013305,
+      "distance_traveled": 16.353946163262464,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Unlevel surface",
+      "Edge proximity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "scenario_id": 8,
+    "object_name": "milk_jug",
+    "attempted_action": "Lift milk_jug from counter and transfer to shelf",
+    "initial_strategy": {
+      "grip_type": "surface_grip",
+      "grip_force_newtons": 1.5472090924823403,
+      "movement_speed": "moderate",
+      "reasoning": "Assumed light object, applied gentle grip"
+    },
+    "failure_description": "Lifted milk_jug 15cm before grip failure. Object fell back to surface.",
+    "failure_mode": "dropping",
+    "physical_principle_violated": "Grip force must exceed gravitational force (F_grip > m*g). Insufficient friction coefficient.",
+    "sensor_evidence": {
+      "grip_force_applied": 1.5472090924823403,
+      "object_weight_estimated": 1.9168070125074628,
+      "slip_detected": 1.0,
+      "accelerometer_spike": 10.919631562959463,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Condensation on object surface"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "scenario_id": 45,
+    "object_name": "rice_bag",
+    "attempted_action": "Transfer rice_bag around obstacles to storage location",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 4.140996915787682,
+      "movement_speed": "fast",
+      "reasoning": "Direct path without obstacle awareness"
+    },
+    "failure_description": "Object collided with shelf edge during transfer. Impact force detected.",
+    "failure_mode": "collision",
+    "physical_principle_violated": "Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "sensor_evidence": {
+      "impact_force": 19.3597646128951,
+      "collision_detected": 1.0,
+      "distance_to_obstacle": 1.9908453789854277,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Cluttered environment",
+      "Limited clearance"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "scenario_id": 22,
+    "object_name": "soda_can",
+    "attempted_action": "Rotate soda_can during transfer to shelf",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 4.987031669779262,
+      "movement_speed": "fast",
+      "reasoning": "Treated as rigid body, ignored liquid dynamics"
+    },
+    "failure_description": "Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 54 degrees from vertical.",
+    "failure_mode": "tipping",
+    "physical_principle_violated": "Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "sensor_evidence": {
+      "tilt_angle": 32.120236894113056,
+      "angular_velocity": 60.96491303506592,
+      "center_of_mass_shift": 3.8823381251092703,
+      "gyroscope_reading": 258.4158728725928,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Liquid partially full",
+      "Fast movement"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "scenario_id": 48,
+    "object_name": "potato",
+    "attempted_action": "Transfer potato around obstacles to storage location",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 3.227518318914738,
+      "movement_speed": "fast",
+      "reasoning": "Direct path without obstacle awareness"
+    },
+    "failure_description": "Object collided with shelf edge during transfer. Impact force detected.",
+    "failure_mode": "collision",
+    "physical_principle_violated": "Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "sensor_evidence": {
+      "impact_force": 6.201671978608803,
+      "collision_detected": 1.0,
+      "distance_to_obstacle": 0.3716499219614464,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Cluttered environment",
+      "Limited clearance"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "scenario_id": 24,
+    "object_name": "milk_jug",
+    "attempted_action": "Rotate milk_jug during transfer to shelf",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 5.3605668205130375,
+      "movement_speed": "fast",
+      "reasoning": "Treated as rigid body, ignored liquid dynamics"
+    },
+    "failure_description": "Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 33 degrees from vertical.",
+    "failure_mode": "tipping",
+    "physical_principle_violated": "Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "sensor_evidence": {
+      "tilt_angle": 60.67696660619586,
+      "angular_velocity": 103.69703304087952,
+      "center_of_mass_shift": 2.8004755698576282,
+      "gyroscope_reading": 228.1923597159616,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Liquid partially full",
+      "Fast movement"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "scenario_id": 47,
+    "object_name": "soda_can",
+    "attempted_action": "Transfer soda_can around obstacles to storage location",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 5.991902241516256,
+      "movement_speed": "fast",
+      "reasoning": "Direct path without obstacle awareness"
+    },
+    "failure_description": "Object collided with cabinet door during transfer. Impact force detected.",
+    "failure_mode": "collision",
+    "physical_principle_violated": "Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "sensor_evidence": {
+      "impact_force": 5.752135058959303,
+      "collision_detected": 1.0,
+      "distance_to_obstacle": 0.9535770342178698,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Cluttered environment",
+      "Limited clearance"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "scenario_id": 23,
+    "object_name": "juice_bottle",
+    "attempted_action": "Rotate juice_bottle during transfer to shelf",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 5.192818061463948,
+      "movement_speed": "fast",
+      "reasoning": "Treated as rigid body, ignored liquid dynamics"
+    },
+    "failure_description": "Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 42 degrees from vertical.",
+    "failure_mode": "tipping",
+    "physical_principle_violated": "Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "sensor_evidence": {
+      "tilt_angle": 47.17286789279416,
+      "angular_velocity": 149.61213802400968,
+      "center_of_mass_shift": 3.587343035297411,
+      "gyroscope_reading": 294.21567552272364,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Liquid partially full",
+      "Fast movement"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "scenario_id": 12,
+    "object_name": "flour_bag",
+    "attempted_action": "Lift flour_bag from counter and transfer to shelf",
+    "initial_strategy": {
+      "grip_type": "surface_grip",
+      "grip_force_newtons": 1.366028217885143,
+      "movement_speed": "moderate",
+      "reasoning": "Assumed light object, applied gentle grip"
+    },
+    "failure_description": "Lifted flour_bag 7cm before grip failure. Object fell back to surface.",
+    "failure_mode": "dropping",
+    "physical_principle_violated": "Grip force must exceed gravitational force (F_grip > m*g). Insufficient friction coefficient.",
+    "sensor_evidence": {
+      "grip_force_applied": 1.366028217885143,
+      "object_weight_estimated": 1.5687365754834932,
+      "slip_detected": 1.0,
+      "accelerometer_spike": 10.985071033388044,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      ""
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "scenario_id": 5,
+    "object_name": "glass_jar",
+    "attempted_action": "Pick up glass_jar from counter and place in refrigerator",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 8.185751787787046,
+      "movement_speed": "fast",
+      "reasoning": "Generic grip strategy applied without object classification"
+    },
+    "failure_description": "Applied 8.2N grip force to glass_jar. Object structural integrity compromised. Visible damage detected.",
+    "failure_mode": "crushing",
+    "physical_principle_violated": "Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "sensor_evidence": {
+      "grip_force_applied": 8.185751787787046,
+      "object_deformation_detected": 1.0,
+      "pressure_sensor_reading": 239.7675301373297,
+      "success": 0.0
+    },
+    "environmental_factors": [],
+    "difficulty": "easy"
+  },
+  {
+    "scenario_id": 35,
+    "object_name": "can_soup",
+    "attempted_action": "Place can_soup on countertop near edge",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 2.457883567622309,
+      "movement_speed": "moderate",
+      "reasoning": "Did not assess surface stability or object geometry"
+    },
+    "failure_description": "Released can_soup on slightly tilted surface. Object rolled 38cm and fell off counter.",
+    "failure_mode": "rolling_away",
+    "physical_principle_violated": "Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "sensor_evidence": {
+      "surface_tilt": 2.1884777483181086,
+      "object_velocity_post_release": 0.09956427336207482,
+      "distance_traveled": 25.424683594257672,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Unlevel surface",
+      "Edge proximity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "scenario_id": 44,
+    "object_name": "juice_bottle",
+    "attempted_action": "Transfer juice_bottle around obstacles to storage location",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 6.609771462042195,
+      "movement_speed": "fast",
+      "reasoning": "Direct path without obstacle awareness"
+    },
+    "failure_description": "Object collided with cabinet door during transfer. Impact force detected.",
+    "failure_mode": "collision",
+    "physical_principle_violated": "Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "sensor_evidence": {
+      "impact_force": 10.684596784653742,
+      "collision_detected": 1.0,
+      "distance_to_obstacle": 1.9706176875594519,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Cluttered environment",
+      "Limited clearance"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "scenario_id": 7,
+    "object_name": "raspberries",
+    "attempted_action": "Pick up raspberries from counter and place in refrigerator",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 13.666013196744785,
+      "movement_speed": "fast",
+      "reasoning": "Generic grip strategy applied without object classification"
+    },
+    "failure_description": "Applied 13.7N grip force to raspberries. Object structural integrity compromised. Visible damage detected.",
+    "failure_mode": "crushing",
+    "physical_principle_violated": "Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "sensor_evidence": {
+      "grip_force_applied": 13.666013196744785,
+      "object_deformation_detected": 1.0,
+      "pressure_sensor_reading": 201.2997519356122,
+      "success": 0.0
+    },
+    "environmental_factors": [],
+    "difficulty": "easy"
+  },
+  {
+    "scenario_id": 18,
+    "object_name": "eggs",
+    "attempted_action": "Grasp eggs and lift vertically",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 4.610091601542429,
+      "movement_speed": "fast",
+      "reasoning": "Did not account for low friction surface"
+    },
+    "failure_description": "Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.",
+    "failure_mode": "slipping",
+    "physical_principle_violated": "For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "sensor_evidence": {
+      "grip_force_applied": 4.610091601542429,
+      "slip_velocity": 0.26046591480893155,
+      "friction_coefficient_estimated": 0.11323772104230945,
+      "vibration_detected": 0.9565680620927726,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Moisture/condensation present",
+      "Smooth packaging material"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "scenario_id": 29,
+    "object_name": "orange",
+    "attempted_action": "Place orange on countertop near edge",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 2.4789046206761176,
+      "movement_speed": "moderate",
+      "reasoning": "Did not assess surface stability or object geometry"
+    },
+    "failure_description": "Released orange on slightly tilted surface. Object rolled 17cm and fell off counter.",
+    "failure_mode": "rolling_away",
+    "physical_principle_violated": "Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "sensor_evidence": {
+      "surface_tilt": 7.268057595224243,
+      "object_velocity_post_release": 0.19204241679469913,
+      "distance_traveled": 12.569603562036363,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Unlevel surface",
+      "Edge proximity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "scenario_id": 4,
+    "object_name": "eggs",
+    "attempted_action": "Pick up eggs from counter and place in refrigerator",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 8.655866679031147,
+      "movement_speed": "fast",
+      "reasoning": "Generic grip strategy applied without object classification"
+    },
+    "failure_description": "Applied 8.7N grip force to eggs. Object structural integrity compromised. Visible damage detected.",
+    "failure_mode": "crushing",
+    "physical_principle_violated": "Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "sensor_evidence": {
+      "grip_force_applied": 8.655866679031147,
+      "object_deformation_detected": 1.0,
+      "pressure_sensor_reading": 246.53217867814791,
+      "success": 0.0
+    },
+    "environmental_factors": [],
+    "difficulty": "easy"
+  },
+  {
+    "scenario_id": 19,
+    "object_name": "tortilla_pack",
+    "attempted_action": "Grasp tortilla_pack and lift vertically",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 3.425253088108281,
+      "movement_speed": "fast",
+      "reasoning": "Did not account for low friction surface"
+    },
+    "failure_description": "Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.",
+    "failure_mode": "slipping",
+    "physical_principle_violated": "For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "sensor_evidence": {
+      "grip_force_applied": 3.425253088108281,
+      "slip_velocity": 0.2996925037969109,
+      "friction_coefficient_estimated": 0.2769366307773405,
+      "vibration_detected": 0.8214259351002121,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Moisture/condensation present",
+      "Smooth packaging material"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "scenario_id": 46,
+    "object_name": "soda_can",
+    "attempted_action": "Transfer soda_can around obstacles to storage location",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 3.6191873010962565,
+      "movement_speed": "fast",
+      "reasoning": "Direct path without obstacle awareness"
+    },
+    "failure_description": "Object collided with other groceries during transfer. Impact force detected.",
+    "failure_mode": "collision",
+    "physical_principle_violated": "Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "sensor_evidence": {
+      "impact_force": 8.265513476212625,
+      "collision_detected": 1.0,
+      "distance_to_obstacle": 0.1169665840145988,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Cluttered environment",
+      "Limited clearance"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "scenario_id": 15,
+    "object_name": "can_soup",
+    "attempted_action": "Grasp can_soup and lift vertically",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 4.4036406269171025,
+      "movement_speed": "fast",
+      "reasoning": "Did not account for low friction surface"
+    },
+    "failure_description": "Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.",
+    "failure_mode": "slipping",
+    "physical_principle_violated": "For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "sensor_evidence": {
+      "grip_force_applied": 4.4036406269171025,
+      "slip_velocity": 0.3734190662146669,
+      "friction_coefficient_estimated": 0.11428050191570967,
+      "vibration_detected": 0.8174891440985301,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Moisture/condensation present",
+      "Smooth packaging material"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "scenario_id": 1,
+    "object_name": "eggs",
+    "attempted_action": "Pick up eggs from counter and place in refrigerator",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 8.175075286558668,
+      "movement_speed": "fast",
+      "reasoning": "Generic grip strategy applied without object classification"
+    },
+    "failure_description": "Applied 8.2N grip force to eggs. Object structural integrity compromised. Visible damage detected.",
+    "failure_mode": "crushing",
+    "physical_principle_violated": "Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "sensor_evidence": {
+      "grip_force_applied": 8.175075286558668,
+      "object_deformation_detected": 1.0,
+      "pressure_sensor_reading": 255.00586367382385,
+      "success": 0.0
+    },
+    "environmental_factors": [],
+    "difficulty": "easy"
+  },
+  {
+    "scenario_id": 3,
+    "object_name": "glass_jar",
+    "attempted_action": "Pick up glass_jar from counter and place in refrigerator",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 8.608571828405912,
+      "movement_speed": "fast",
+      "reasoning": "Generic grip strategy applied without object classification"
+    },
+    "failure_description": "Applied 8.6N grip force to glass_jar. Object structural integrity compromised. Visible damage detected.",
+    "failure_mode": "crushing",
+    "physical_principle_violated": "Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "sensor_evidence": {
+      "grip_force_applied": 8.608571828405912,
+      "object_deformation_detected": 1.0,
+      "pressure_sensor_reading": 284.3843639370541,
+      "success": 0.0
+    },
+    "environmental_factors": [],
+    "difficulty": "easy"
+  },
+  {
+    "scenario_id": 25,
+    "object_name": "milk_jug",
+    "attempted_action": "Rotate milk_jug during transfer to shelf",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 4.587000257294852,
+      "movement_speed": "fast",
+      "reasoning": "Treated as rigid body, ignored liquid dynamics"
+    },
+    "failure_description": "Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 35 degrees from vertical.",
+    "failure_mode": "tipping",
+    "physical_principle_violated": "Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "sensor_evidence": {
+      "tilt_angle": 50.41756678481429,
+      "angular_velocity": 145.38159275210802,
+      "center_of_mass_shift": 4.627558821134582,
+      "gyroscope_reading": 152.67781015021814,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Liquid partially full",
+      "Fast movement"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "scenario_id": 33,
+    "object_name": "orange",
+    "attempted_action": "Place orange on countertop near edge",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 2.8762001678290083,
+      "movement_speed": "moderate",
+      "reasoning": "Did not assess surface stability or object geometry"
+    },
+    "failure_description": "Released orange on slightly tilted surface. Object rolled 26cm and fell off counter.",
+    "failure_mode": "rolling_away",
+    "physical_principle_violated": "Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "sensor_evidence": {
+      "surface_tilt": 4.708916848346778,
+      "object_velocity_post_release": 0.08718584204990121,
+      "distance_traveled": 11.920776889790348,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Unlevel surface",
+      "Edge proximity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "scenario_id": 39,
+    "object_name": "soda_can",
+    "attempted_action": "Rapidly transfer soda_can from counter to refrigerator",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 5.162513561696511,
+      "movement_speed": "fast",
+      "reasoning": "Prioritized speed over stability"
+    },
+    "failure_description": "Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.",
+    "failure_mode": "sloshing",
+    "physical_principle_violated": "Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "sensor_evidence": {
+      "acceleration_peak": 3.960366464797375,
+      "force_oscillation_amplitude": 2.292359502589969,
+      "grip_stability_metric": 0.3181838022231041,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Container 70-90% full",
+      "Fast movement"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "scenario_id": 30,
+    "object_name": "potato",
+    "attempted_action": "Place potato on countertop near edge",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 3.632046506840177,
+      "movement_speed": "moderate",
+      "reasoning": "Did not assess surface stability or object geometry"
+    },
+    "failure_description": "Released potato on slightly tilted surface. Object rolled 34cm and fell off counter.",
+    "failure_mode": "rolling_away",
+    "physical_principle_violated": "Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "sensor_evidence": {
+      "surface_tilt": 5.1962370171770935,
+      "object_velocity_post_release": 0.0688640767280662,
+      "distance_traveled": 29.79252468242102,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Unlevel surface",
+      "Edge proximity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "scenario_id": 20,
+    "object_name": "milk_jug",
+    "attempted_action": "Grasp milk_jug and lift vertically",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 3.529760332996105,
+      "movement_speed": "fast",
+      "reasoning": "Did not account for low friction surface"
+    },
+    "failure_description": "Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.",
+    "failure_mode": "slipping",
+    "physical_principle_violated": "For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "sensor_evidence": {
+      "grip_force_applied": 3.529760332996105,
+      "slip_velocity": 0.1986510030775934,
+      "friction_coefficient_estimated": 0.21227362683263015,
+      "vibration_detected": 0.6313708042614676,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Moisture/condensation present",
+      "Smooth packaging material"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "scenario_id": 9,
+    "object_name": "flour_bag",
+    "attempted_action": "Lift flour_bag from counter and transfer to shelf",
+    "initial_strategy": {
+      "grip_type": "surface_grip",
+      "grip_force_newtons": 0.6533154147797731,
+      "movement_speed": "moderate",
+      "reasoning": "Assumed light object, applied gentle grip"
+    },
+    "failure_description": "Lifted flour_bag 17cm before grip failure. Object fell back to surface.",
+    "failure_mode": "dropping",
+    "physical_principle_violated": "Grip force must exceed gravitational force (F_grip > m*g). Insufficient friction coefficient.",
+    "sensor_evidence": {
+      "grip_force_applied": 0.6533154147797731,
+      "object_weight_estimated": 1.6450745652501961,
+      "slip_detected": 1.0,
+      "accelerometer_spike": 14.20697070500679,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      ""
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "scenario_id": 26,
+    "object_name": "soda_can",
+    "attempted_action": "Rotate soda_can during transfer to shelf",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 5.523924398104129,
+      "movement_speed": "fast",
+      "reasoning": "Treated as rigid body, ignored liquid dynamics"
+    },
+    "failure_description": "Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 46 degrees from vertical.",
+    "failure_mode": "tipping",
+    "physical_principle_violated": "Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "sensor_evidence": {
+      "tilt_angle": 71.06825277051692,
+      "angular_velocity": 137.05185698367669,
+      "center_of_mass_shift": 2.895334374345899,
+      "gyroscope_reading": 227.78989897320105,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Liquid partially full",
+      "Fast movement"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "scenario_id": 41,
+    "object_name": "juice_bottle",
+    "attempted_action": "Rapidly transfer juice_bottle from counter to refrigerator",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 5.4205468912843235,
+      "movement_speed": "fast",
+      "reasoning": "Prioritized speed over stability"
+    },
+    "failure_description": "Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.",
+    "failure_mode": "sloshing",
+    "physical_principle_violated": "Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "sensor_evidence": {
+      "acceleration_peak": 2.5504641073617,
+      "force_oscillation_amplitude": 1.9252561368019347,
+      "grip_stability_metric": 0.562345786221174,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Container 70-90% full",
+      "Fast movement"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "scenario_id": 16,
+    "object_name": "soda_can",
+    "attempted_action": "Grasp soda_can and lift vertically",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 4.458253595900699,
+      "movement_speed": "fast",
+      "reasoning": "Did not account for low friction surface"
+    },
+    "failure_description": "Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.",
+    "failure_mode": "slipping",
+    "physical_principle_violated": "For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "sensor_evidence": {
+      "grip_force_applied": 4.458253595900699,
+      "slip_velocity": 0.16536099750477135,
+      "friction_coefficient_estimated": 0.17589108835152956,
+      "vibration_detected": 0.9947616753182976,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Moisture/condensation present",
+      "Smooth packaging material"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "scenario_id": 42,
+    "object_name": "milk_jug",
+    "attempted_action": "Rapidly transfer milk_jug from counter to refrigerator",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 6.329392235160371,
+      "movement_speed": "fast",
+      "reasoning": "Prioritized speed over stability"
+    },
+    "failure_description": "Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.",
+    "failure_mode": "sloshing",
+    "physical_principle_violated": "Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "sensor_evidence": {
+      "acceleration_peak": 4.584047314285492,
+      "force_oscillation_amplitude": 2.1006506248996963,
+      "grip_stability_metric": 0.31517649885746435,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Container 70-90% full",
+      "Fast movement"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "scenario_id": 14,
+    "object_name": "rice_bag",
+    "attempted_action": "Lift rice_bag from counter and transfer to shelf",
+    "initial_strategy": {
+      "grip_type": "surface_grip",
+      "grip_force_newtons": 1.4535266663966002,
+      "movement_speed": "moderate",
+      "reasoning": "Assumed light object, applied gentle grip"
+    },
+    "failure_description": "Lifted rice_bag 16cm before grip failure. Object fell back to surface.",
+    "failure_mode": "dropping",
+    "physical_principle_violated": "Grip force must exceed gravitational force (F_grip > m*g). Insufficient friction coefficient.",
+    "sensor_evidence": {
+      "grip_force_applied": 1.4535266663966002,
+      "object_weight_estimated": 1.7439811457341272,
+      "slip_detected": 1.0,
+      "accelerometer_spike": 11.647407641183111,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      ""
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "scenario_id": 17,
+    "object_name": "soda_can",
+    "attempted_action": "Grasp soda_can and lift vertically",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 3.439230347940538,
+      "movement_speed": "fast",
+      "reasoning": "Did not account for low friction surface"
+    },
+    "failure_description": "Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.",
+    "failure_mode": "slipping",
+    "physical_principle_violated": "For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "sensor_evidence": {
+      "grip_force_applied": 3.439230347940538,
+      "slip_velocity": 0.22971309376612875,
+      "friction_coefficient_estimated": 0.2536627155184744,
+      "vibration_detected": 0.527968973774642,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Moisture/condensation present",
+      "Smooth packaging material"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "scenario_id": 21,
+    "object_name": "banana_bunch",
+    "attempted_action": "Grasp banana_bunch and lift vertically",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 4.795645767204954,
+      "movement_speed": "fast",
+      "reasoning": "Did not account for low friction surface"
+    },
+    "failure_description": "Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.",
+    "failure_mode": "slipping",
+    "physical_principle_violated": "For smooth surfaces, required grip force F > W/\u03bc where \u03bc is friction coefficient. Underestimated friction needs.",
+    "sensor_evidence": {
+      "grip_force_applied": 4.795645767204954,
+      "slip_velocity": 0.2597602020561589,
+      "friction_coefficient_estimated": 0.14386415183145668,
+      "vibration_detected": 0.9987688032475551,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Moisture/condensation present",
+      "Smooth packaging material"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "scenario_id": 34,
+    "object_name": "can_soup",
+    "attempted_action": "Place can_soup on countertop near edge",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 3.1766174369144666,
+      "movement_speed": "moderate",
+      "reasoning": "Did not assess surface stability or object geometry"
+    },
+    "failure_description": "Released can_soup on slightly tilted surface. Object rolled 17cm and fell off counter.",
+    "failure_mode": "rolling_away",
+    "physical_principle_violated": "Spherical/cylindrical objects are unstable on non-level surfaces. Must verify surface angle < \u03b8_critical.",
+    "sensor_evidence": {
+      "surface_tilt": 5.530640686462107,
+      "object_velocity_post_release": 0.051078625847764035,
+      "distance_traveled": 31.23522839645362,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Unlevel surface",
+      "Edge proximity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "scenario_id": 37,
+    "object_name": "soda_can",
+    "attempted_action": "Rapidly transfer soda_can from counter to refrigerator",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 6.7286349491627,
+      "movement_speed": "fast",
+      "reasoning": "Prioritized speed over stability"
+    },
+    "failure_description": "Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.",
+    "failure_mode": "sloshing",
+    "physical_principle_violated": "Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "sensor_evidence": {
+      "acceleration_peak": 2.7289917271871733,
+      "force_oscillation_amplitude": 1.9459458858891874,
+      "grip_stability_metric": 0.42211798844578097,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Container 70-90% full",
+      "Fast movement"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "scenario_id": 38,
+    "object_name": "milk_jug",
+    "attempted_action": "Rapidly transfer milk_jug from counter to refrigerator",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 5.29079244268647,
+      "movement_speed": "fast",
+      "reasoning": "Prioritized speed over stability"
+    },
+    "failure_description": "Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.",
+    "failure_mode": "sloshing",
+    "physical_principle_violated": "Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "sensor_evidence": {
+      "acceleration_peak": 3.2931535472191324,
+      "force_oscillation_amplitude": 1.8471572460398415,
+      "grip_stability_metric": 0.4401074004110025,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Container 70-90% full",
+      "Fast movement"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "scenario_id": 43,
+    "object_name": "soda_can",
+    "attempted_action": "Transfer soda_can around obstacles to storage location",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 6.875985029139005,
+      "movement_speed": "fast",
+      "reasoning": "Direct path without obstacle awareness"
+    },
+    "failure_description": "Object collided with cabinet door during transfer. Impact force detected.",
+    "failure_mode": "collision",
+    "physical_principle_violated": "Motion planning must account for object bounding box and environment. Path clearance insufficient.",
+    "sensor_evidence": {
+      "impact_force": 7.49466665905871,
+      "collision_detected": 1.0,
+      "distance_to_obstacle": 0.9712822509014369,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Cluttered environment",
+      "Limited clearance"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "scenario_id": 27,
+    "object_name": "soda_can",
+    "attempted_action": "Rotate soda_can during transfer to shelf",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 4.397822203529466,
+      "movement_speed": "fast",
+      "reasoning": "Treated as rigid body, ignored liquid dynamics"
+    },
+    "failure_description": "Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 41 degrees from vertical.",
+    "failure_mode": "tipping",
+    "physical_principle_violated": "Liquid containers have dynamic center of mass. Rapid acceleration causes sloshing and instability.",
+    "sensor_evidence": {
+      "tilt_angle": 64.31298600338181,
+      "angular_velocity": 103.93790301196258,
+      "center_of_mass_shift": 4.335879435891675,
+      "gyroscope_reading": 206.0707344390355,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Liquid partially full",
+      "Fast movement"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "scenario_id": 6,
+    "object_name": "glass_jar",
+    "attempted_action": "Pick up glass_jar from counter and place in refrigerator",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 10.93663874673161,
+      "movement_speed": "fast",
+      "reasoning": "Generic grip strategy applied without object classification"
+    },
+    "failure_description": "Applied 10.9N grip force to glass_jar. Object structural integrity compromised. Visible damage detected.",
+    "failure_mode": "crushing",
+    "physical_principle_violated": "Fragile objects require distributed, low-pressure contact. Exceeded material yield strength.",
+    "sensor_evidence": {
+      "grip_force_applied": 10.93663874673161,
+      "object_deformation_detected": 1.0,
+      "pressure_sensor_reading": 289.8418092567707,
+      "success": 0.0
+    },
+    "environmental_factors": [],
+    "difficulty": "easy"
+  },
+  {
+    "scenario_id": 40,
+    "object_name": "soda_can",
+    "attempted_action": "Rapidly transfer soda_can from counter to refrigerator",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 6.01790781618489,
+      "movement_speed": "fast",
+      "reasoning": "Prioritized speed over stability"
+    },
+    "failure_description": "Sudden acceleration caused liquid to slosh violently. Unpredicted forces made control difficult, nearly dropped container.",
+    "failure_mode": "sloshing",
+    "physical_principle_violated": "Liquid momentum creates reaction forces. Acceleration must be limited to prevent resonance with container natural frequency.",
+    "sensor_evidence": {
+      "acceleration_peak": 4.585017609058373,
+      "force_oscillation_amplitude": 1.4973126678405713,
+      "grip_stability_metric": 0.35706267253224344,
+      "success": 0.0
+    },
+    "environmental_factors": [
+      "Container 70-90% full",
+      "Fast movement"
+    ],
+    "difficulty": "medium"
+  }
+]

@@ -1,0 +1,2160 @@
+{
+  "student_baseline": {
+    "stage": "Stage 0: Student Baseline (Qwen 3B)",
+    "total": 150,
+    "correct": 18,
+    "accuracy": 0.12,
+    "by_difficulty": {
+      "MEDIUM": {
+        "correct": 5,
+        "total": 50
+      },
+      "HARD": {
+        "correct": 13,
+        "total": 50
+      },
+      "EASY": {
+        "correct": 0,
+        "total": 50
+      }
+    },
+    "results": [
+      {
+        "problem_id": "medium_0",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_1",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_2",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_3",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "hard_4",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_5",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_6",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_7",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_8",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_9",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_10",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_11",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_12",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "medium_13",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_14",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_15",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "easy_16",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_17",
+        "answer": "NO",
+        "correct": true,
+        "expected": "NO",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "hard_18",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "easy_19",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_20",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_21",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_22",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_23",
+        "answer": "NO",
+        "correct": true,
+        "expected": "NO",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_24",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_25",
+        "answer": "NO",
+        "correct": true,
+        "expected": "NO",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "medium_26",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_27",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_28",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_29",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "medium_30",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_31",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_32",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_33",
+        "answer": "NO",
+        "correct": true,
+        "expected": "NO",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "easy_34",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_35",
+        "answer": "NO",
+        "correct": true,
+        "expected": "NO",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_36",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_37",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_38",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_39",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_40",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_41",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_42",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_43",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all meetings can"
+      },
+      {
+        "problem_id": "medium_44",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_45",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_46",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_47",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_48",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_49",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "hard_50",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "easy_51",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_52",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_53",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_54",
+        "answer": "NO",
+        "correct": true,
+        "expected": "NO",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_55",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_56",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_57",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_58",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_59",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "medium_60",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_61",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_62",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_63",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_64",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_65",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_66",
+        "answer": "NO",
+        "correct": true,
+        "expected": "NO",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_67",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_68",
+        "answer": "NO",
+        "correct": true,
+        "expected": "NO",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_69",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_70",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_71",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_72",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "easy_73",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_74",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_75",
+        "answer": "NO",
+        "correct": true,
+        "expected": "NO",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "medium_76",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_77",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_78",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all meetings can"
+      },
+      {
+        "problem_id": "hard_79",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_80",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_81",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_82",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\n\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_83",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "hard_84",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_85",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_86",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_87",
+        "answer": "NO",
+        "correct": true,
+        "expected": "NO",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "hard_88",
+        "answer": "NO",
+        "correct": true,
+        "expected": "NO",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_89",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "hard_90",
+        "answer": "NO",
+        "correct": true,
+        "expected": "NO",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "medium_91",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_92",
+        "answer": "NO",
+        "correct": true,
+        "expected": "NO",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_93",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_94",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_95",
+        "answer": "NO",
+        "correct": true,
+        "expected": "NO",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_96",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_97",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_98",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_99",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_100",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_101",
+        "answer": "NO",
+        "correct": true,
+        "expected": "NO",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_102",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_103",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_104",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_105",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_106",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_107",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "medium_108",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_109",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_110",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_111",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_112",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_113",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_114",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_115",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_116",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_117",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_118",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_119",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_120",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_121",
+        "answer": "NO",
+        "correct": true,
+        "expected": "NO",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "hard_122",
+        "answer": "NO",
+        "correct": true,
+        "expected": "NO",
+        "response": " NO. \n\nExplanation:\nTo determine if all meetings"
+      },
+      {
+        "problem_id": "medium_123",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_124",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_125",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_126",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "easy_127",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_128",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "hard_129",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_130",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "easy_131",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_132",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_133",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_134",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "medium_135",
+        "answer": "NO",
+        "correct": true,
+        "expected": "NO",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_136",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_137",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_138",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_139",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_140",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_141",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_142",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_143",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_144",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_145",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "hard_146",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO. \n\nExplanation:\nTo determine if all the"
+      },
+      {
+        "problem_id": "easy_147",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "medium_148",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all the meetings"
+      },
+      {
+        "problem_id": "easy_149",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO.\n\nExplanation:\nTo determine if all meetings can"
+      }
+    ]
+  },
+  "lora": {
+    "stage": "Stage 4: LoRA Test",
+    "total": 150,
+    "correct": 124,
+    "accuracy": 0.8266666666666667,
+    "by_difficulty": {
+      "MEDIUM": {
+        "correct": 45,
+        "total": 50
+      },
+      "HARD": {
+        "correct": 37,
+        "total": 50
+      },
+      "EASY": {
+        "correct": 42,
+        "total": 50
+      }
+    },
+    "results": [
+      {
+        "problem_id": "medium_0",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[9,12]"
+      },
+      {
+        "problem_id": "hard_1",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[14-15"
+      },
+      {
+        "problem_id": "easy_2",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "hard_3",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[11-12"
+      },
+      {
+        "problem_id": "hard_4",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[9,12]"
+      },
+      {
+        "problem_id": "easy_5",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "hard_6",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[11-14"
+      },
+      {
+        "problem_id": "medium_7",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[13-15"
+      },
+      {
+        "problem_id": "hard_8",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[9,12]"
+      },
+      {
+        "problem_id": "easy_9",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[9,12]"
+      },
+      {
+        "problem_id": "easy_10",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "hard_11",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[12-15"
+      },
+      {
+        "problem_id": "hard_12",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[12-13"
+      },
+      {
+        "problem_id": "medium_13",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[14-17"
+      },
+      {
+        "problem_id": "easy_14",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "hard_15",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[11-12"
+      },
+      {
+        "problem_id": "easy_16",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "hard_17",
+        "answer": "YES",
+        "correct": false,
+        "expected": "NO",
+        "response": " YES\n\nSolution:\n[11-12"
+      },
+      {
+        "problem_id": "hard_18",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[11-12"
+      },
+      {
+        "problem_id": "easy_19",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "easy_20",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "medium_21",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[14-16"
+      },
+      {
+        "problem_id": "easy_22",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "medium_23",
+        "answer": "YES",
+        "correct": false,
+        "expected": "NO",
+        "response": " YES\n\nSolution:\n[13-14"
+      },
+      {
+        "problem_id": "easy_24",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "hard_25",
+        "answer": "YES",
+        "correct": false,
+        "expected": "NO",
+        "response": " YES\n\nSolution:\n[11-12"
+      },
+      {
+        "problem_id": "medium_26",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[9,11]"
+      },
+      {
+        "problem_id": "medium_27",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[10-12"
+      },
+      {
+        "problem_id": "hard_28",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[13-16"
+      },
+      {
+        "problem_id": "medium_29",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[15-17"
+      },
+      {
+        "problem_id": "medium_30",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[10-12"
+      },
+      {
+        "problem_id": "medium_31",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[12-13"
+      },
+      {
+        "problem_id": "easy_32",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO\n\nSolution:\nMax simultaneous = 2 ("
+      },
+      {
+        "problem_id": "hard_33",
+        "answer": "YES",
+        "correct": false,
+        "expected": "NO",
+        "response": " YES\n\nSolution:\n[10-12"
+      },
+      {
+        "problem_id": "easy_34",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "medium_35",
+        "answer": "YES",
+        "correct": false,
+        "expected": "NO",
+        "response": " Yes\n\nSolution:\n[13-16"
+      },
+      {
+        "problem_id": "medium_36",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[11-12"
+      },
+      {
+        "problem_id": "easy_37",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "medium_38",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[13-15"
+      },
+      {
+        "problem_id": "easy_39",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO\n\nSolution:\nMax simultaneous = 2 ("
+      },
+      {
+        "problem_id": "easy_40",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "medium_41",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[10-12"
+      },
+      {
+        "problem_id": "medium_42",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[11-12"
+      },
+      {
+        "problem_id": "easy_43",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "medium_44",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[9,11]"
+      },
+      {
+        "problem_id": "medium_45",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[12-13"
+      },
+      {
+        "problem_id": "medium_46",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[9,12]"
+      },
+      {
+        "problem_id": "medium_47",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[9,12]"
+      },
+      {
+        "problem_id": "easy_48",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "hard_49",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[11-13"
+      },
+      {
+        "problem_id": "hard_50",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[11-14"
+      },
+      {
+        "problem_id": "easy_51",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "easy_52",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "easy_53",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO\n\nSolution:\nMax simultaneous = 2 ("
+      },
+      {
+        "problem_id": "hard_54",
+        "answer": "YES",
+        "correct": false,
+        "expected": "NO",
+        "response": " YES\n\nSolution:\n[14-16"
+      },
+      {
+        "problem_id": "easy_55",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "easy_56",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO\n\nSolution:\nMax simultaneous = 2 ("
+      },
+      {
+        "problem_id": "hard_57",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[10-11"
+      },
+      {
+        "problem_id": "hard_58",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[9,11]"
+      },
+      {
+        "problem_id": "hard_59",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[15-18"
+      },
+      {
+        "problem_id": "medium_60",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[10, 1"
+      },
+      {
+        "problem_id": "medium_61",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[14-15"
+      },
+      {
+        "problem_id": "medium_62",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[15-17"
+      },
+      {
+        "problem_id": "hard_63",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[10-12"
+      },
+      {
+        "problem_id": "easy_64",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "hard_65",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[11-14"
+      },
+      {
+        "problem_id": "hard_66",
+        "answer": "YES",
+        "correct": false,
+        "expected": "NO",
+        "response": " YES\n\nSolution:\n[10-12"
+      },
+      {
+        "problem_id": "easy_67",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "medium_68",
+        "answer": "YES",
+        "correct": false,
+        "expected": "NO",
+        "response": " Yes\n\nSolution:\n[12-15"
+      },
+      {
+        "problem_id": "hard_69",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[12-13"
+      },
+      {
+        "problem_id": "hard_70",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[15-18"
+      },
+      {
+        "problem_id": "medium_71",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[11-14"
+      },
+      {
+        "problem_id": "hard_72",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[9,10]"
+      },
+      {
+        "problem_id": "easy_73",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "easy_74",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "hard_75",
+        "answer": "YES",
+        "correct": false,
+        "expected": "NO",
+        "response": " YES\n\nSolution:\n[13-16"
+      },
+      {
+        "problem_id": "medium_76",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[9,11]"
+      },
+      {
+        "problem_id": "easy_77",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "easy_78",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "hard_79",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[9,11]"
+      },
+      {
+        "problem_id": "medium_80",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[10-13"
+      },
+      {
+        "problem_id": "easy_81",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO\n\nSolution:\nMax simultaneous = 2 ("
+      },
+      {
+        "problem_id": "medium_82",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[11-14"
+      },
+      {
+        "problem_id": "hard_83",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[10,11"
+      },
+      {
+        "problem_id": "hard_84",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[15-18"
+      },
+      {
+        "problem_id": "medium_85",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[15, 1"
+      },
+      {
+        "problem_id": "hard_86",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[11-14"
+      },
+      {
+        "problem_id": "hard_87",
+        "answer": "YES",
+        "correct": false,
+        "expected": "NO",
+        "response": " YES\n\nSolution:\n[12-14"
+      },
+      {
+        "problem_id": "hard_88",
+        "answer": "YES",
+        "correct": false,
+        "expected": "NO",
+        "response": " Yes\n\nSolution:\n[14-16"
+      },
+      {
+        "problem_id": "hard_89",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[13-15"
+      },
+      {
+        "problem_id": "hard_90",
+        "answer": "YES",
+        "correct": false,
+        "expected": "NO",
+        "response": " YES\n\nSolution:\n[15-18"
+      },
+      {
+        "problem_id": "medium_91",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[11-14"
+      },
+      {
+        "problem_id": "medium_92",
+        "answer": "YES",
+        "correct": false,
+        "expected": "NO",
+        "response": " Yes\n\nSolution:\n[9,12]"
+      },
+      {
+        "problem_id": "medium_93",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[12-15"
+      },
+      {
+        "problem_id": "easy_94",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "hard_95",
+        "answer": "YES",
+        "correct": false,
+        "expected": "NO",
+        "response": " YES\n\nSolution:\n[12-13"
+      },
+      {
+        "problem_id": "medium_96",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[10-11"
+      },
+      {
+        "problem_id": "medium_97",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[12-15"
+      },
+      {
+        "problem_id": "medium_98",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[11-12"
+      },
+      {
+        "problem_id": "medium_99",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[9,11]"
+      },
+      {
+        "problem_id": "easy_100",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "hard_101",
+        "answer": "YES",
+        "correct": false,
+        "expected": "NO",
+        "response": " YES\n\nSolution:\n[11-14"
+      },
+      {
+        "problem_id": "medium_102",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[11-12"
+      },
+      {
+        "problem_id": "easy_103",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "easy_104",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "medium_105",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[15-17"
+      },
+      {
+        "problem_id": "easy_106",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "hard_107",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[13-16"
+      },
+      {
+        "problem_id": "medium_108",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[13-14"
+      },
+      {
+        "problem_id": "easy_109",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "medium_110",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[11-13"
+      },
+      {
+        "problem_id": "medium_111",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[15-17"
+      },
+      {
+        "problem_id": "medium_112",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[13-14"
+      },
+      {
+        "problem_id": "easy_113",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO\n\nSolution:\nMax simultaneous = 2 ("
+      },
+      {
+        "problem_id": "easy_114",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "hard_115",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[9-10]"
+      },
+      {
+        "problem_id": "easy_116",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "easy_117",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO\n\nSolution:\nMax simultaneous = 2 ("
+      },
+      {
+        "problem_id": "hard_118",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[10-11"
+      },
+      {
+        "problem_id": "easy_119",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[14, 1"
+      },
+      {
+        "problem_id": "easy_120",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "hard_121",
+        "answer": "YES",
+        "correct": false,
+        "expected": "NO",
+        "response": " YES\n\nSolution:\n[13-14"
+      },
+      {
+        "problem_id": "hard_122",
+        "answer": "YES",
+        "correct": false,
+        "expected": "NO",
+        "response": " YES\n\nSolution:\n[10-13"
+      },
+      {
+        "problem_id": "medium_123",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[14-17"
+      },
+      {
+        "problem_id": "medium_124",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[14-15"
+      },
+      {
+        "problem_id": "hard_125",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[10-11"
+      },
+      {
+        "problem_id": "hard_126",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[10-12"
+      },
+      {
+        "problem_id": "easy_127",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "medium_128",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[15, 1"
+      },
+      {
+        "problem_id": "hard_129",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[11-14"
+      },
+      {
+        "problem_id": "hard_130",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[14-16"
+      },
+      {
+        "problem_id": "easy_131",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "easy_132",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "medium_133",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[11-13"
+      },
+      {
+        "problem_id": "hard_134",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[14, 1"
+      },
+      {
+        "problem_id": "medium_135",
+        "answer": "YES",
+        "correct": false,
+        "expected": "NO",
+        "response": " YES\n\nSolution:\n[13-15"
+      },
+      {
+        "problem_id": "easy_136",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "easy_137",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "hard_138",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[12-13"
+      },
+      {
+        "problem_id": "medium_139",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[13-15"
+      },
+      {
+        "problem_id": "medium_140",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[9,10]"
+      },
+      {
+        "problem_id": "hard_141",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[11-13"
+      },
+      {
+        "problem_id": "medium_142",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[12-14"
+      },
+      {
+        "problem_id": "easy_143",
+        "answer": "NO",
+        "correct": false,
+        "expected": "YES",
+        "response": " NO\n\nSolution:\nMax simultaneous = 2 ("
+      },
+      {
+        "problem_id": "easy_144",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "hard_145",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[9,10]"
+      },
+      {
+        "problem_id": "hard_146",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\n[14-15"
+      },
+      {
+        "problem_id": "easy_147",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      },
+      {
+        "problem_id": "medium_148",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " Yes\n\nSolution:\n[11-13"
+      },
+      {
+        "problem_id": "easy_149",
+        "answer": "YES",
+        "correct": true,
+        "expected": "YES",
+        "response": " YES\n\nSolution:\nNo conflicts, max simultaneous ="
+      }
+    ]
+  },
+  "metadata": {
+    "timestamp": "2025-11-11T18:55:58.001879",
+    "model_teacher": "Claude 3.5 Haiku",
+    "model_student": "Qwen/Qwen2.5-1.5B-Instruct",
+    "stages_run": {
+      "stage_0_student_baseline": true,
+      "stage_1_teacher_baseline": false,
+      "stage_2_bootstrap": false,
+      "stage_3_lrl_test": false,
+      "stage_4_lora": true
+    },
+    "num_training_problems": 100,
+    "num_test_problems": 150
+  }
+}

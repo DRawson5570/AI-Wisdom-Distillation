@@ -1,0 +1,466 @@
+
+[ENTRY | Bar 254 | BACKTEST]
+Direction: LONG
+Entry: 90.81 | SL: 89.93341068455486 | TP: 92.12488397316773
+Balance: $10,000.00
+Reasoning: System confirmed LONG breakout with Current Close (90.81000) above Bar-1 HA High, indicating a bullish move. The RSI is on an uptrend, MACD has turned positive, and the strong ADX trend direction supports this action. Despite low volume, the Morning Star pattern suggests a potential reversal to the upside.
+Time: 2025-11-04 20:11:36
+
+[EXIT | Bar 257 | BACKTEST]
+Direction: LONG
+Entry: 90.81 → Exit: 89.93341068455486
+Exit Reason: Stop Loss
+P&L: $-200.00 (-2.00%)
+R-Multiple: -1.00R
+Bars in Trade: 3
+Max Favorable: 0.00R
+Time: 2025-11-04 20:11:36
+
+[ENTRY | Bar 261 | BACKTEST]
+Direction: LONG
+Entry: 91.828 | SL: 90.08 | TP: 94.45000000000002
+Balance: $9,800.00
+Reasoning: System confirmed LONG breakout as the current Close (91.828) is above Bar-1 HA High (90.850). Indicators support this entry: strong uptrend shown by 7/10 green Heikin Ashi candles, ADX indicates a robust bullish trend, and RSI suggests short-term overbought conditions but with potential for continued movement. Volume analysis confirms normal activity without high-volume reversal signals.
+Time: 2025-11-04 20:15:49
+
+[EXIT | Bar 266 | BACKTEST]
+Direction: LONG
+Entry: 91.828 → Exit: 91.828
+Exit Reason: Break-Even Stop
+P&L: $0.00 (0.00%)
+R-Multiple: 0.00R
+Bars in Trade: 5
+Max Favorable: 1.61R
+Time: 2025-11-04 20:15:49
+
+[ENTRY | Bar 266 | BACKTEST]
+Direction: SHORT
+Entry: 91.202 | SL: 94.687 | TP: 85.9745
+Balance: $9,800.00
+Reasoning: System confirmed short breakout as current close (91.202) is below Bar-1 HA Low (92.338), indicating a strong bearish reversal supported by high volume. The Heikin Ashi red candle and decreasing ADX signal weakening bullish trend, reinforcing the entry. Recent support at 90.827 broken on high volume further suggests continuation of downward movement.
+Time: 2025-11-04 20:16:25
+
+[EXIT | Bar 306 | BACKTEST]
+Direction: SHORT
+Entry: 91.202 → Exit: 94.687
+Exit Reason: Stop Loss
+P&L: $-196.00 (-2.00%)
+R-Multiple: -1.00R
+Bars in Trade: 40
+Max Favorable: 1.18R
+Time: 2025-11-04 20:16:25
+
+[ENTRY | Bar 306 | BACKTEST]
+Direction: LONG
+Entry: 94.612 | SL: 92.465 | TP: 97.83249999999998
+Balance: $9,604.00
+Reasoning: System confirmed LONG breakout with Current Close above Bar-1 HA High, indicating a bullish reversal. Support from a Morning Star pattern and overbought stochastic signal strengthens the case for a continuation of the uptrend. RSI, MACD, and volume analysis corroborate the positive sentiment.
+Time: 2025-11-04 20:17:11
+
+[EXIT | Bar 316 | BACKTEST]
+Direction: LONG
+Entry: 94.612 → Exit: 96.99878571428572
+Exit Reason: Break-Even Stop
+P&L: $213.53 (2.22%)
+R-Multiple: 1.11R
+Bars in Trade: 10
+Max Favorable: 2.36R
+Time: 2025-11-04 20:17:11
+
+[ENTRY | Bar 318 | BACKTEST]
+Direction: LONG
+Entry: 98.848 | SL: 96.524 | TP: 102.334
+Balance: $9,817.53
+Reasoning: System confirmed LONG breakout as the current close (98.84800) is above Bar-1 HA High (98.38000). Heikin Ashi shows a strong bullish trend with most recent candles being green, and ADX indicates a strong trend direction with +DI greater than -DI. Despite RSI indicating overbought conditions, it has been consistent recently without reversal to bearish territory.
+Time: 2025-11-04 20:19:30
+
+[EXIT | Bar 321 | BACKTEST]
+Direction: LONG
+Entry: 98.848 → Exit: 96.524
+Exit Reason: Stop Loss
+P&L: $-196.35 (-2.00%)
+R-Multiple: -1.00R
+Bars in Trade: 3
+Max Favorable: 0.13R
+Time: 2025-11-04 20:19:30
+
+[ENTRY | Bar 324 | BACKTEST]
+Direction: LONG
+Entry: 98.15 | SL: 97.09100000000001 | TP: 99.7385
+Balance: $9,621.18
+Reasoning: System confirmed LONG breakout above Bar-1 HA High, indicating a bullish entry signal. Supporting indicators such as MACD turning positive and RSI being in neutral territory suggest upward momentum is building. The presence of seven out of ten green Heikin Ashi candles over the last 10 bars highlights a prevailing bullish trend.
+Time: 2025-11-04 20:24:17
+
+[EXIT | Bar 327 | BACKTEST]
+Direction: LONG
+Entry: 98.15 → Exit: 97.09100000000001
+Exit Reason: Stop Loss
+P&L: $-192.42 (-2.00%)
+R-Multiple: -1.00R
+Bars in Trade: 3
+Max Favorable: 0.78R
+Time: 2025-11-04 20:24:17
+
+[ENTRY | Bar 327 | BACKTEST]
+Direction: SHORT
+Entry: 96.26 | SL: 98.7 | TP: 92.60000000000001
+Balance: $9,428.76
+Reasoning: System confirmed short breakout as the current close is below Bar-1 HA Low. Indicators are strongly bearish with RSI at 38.2, stochastic in oversold condition and showing a bearish cross, MACD at 0.9842 confirming downward momentum, and ADX at 29.8 indicating strong trend presence. Volume analysis shows high volume at reversal points, further validating the strength of this setup.
+Time: 2025-11-04 20:25:10
+
+[EXIT | Bar 335 | BACKTEST]
+Direction: SHORT
+Entry: 96.26 → Exit: 98.7
+Exit Reason: Stop Loss
+P&L: $-188.58 (-2.00%)
+R-Multiple: -1.00R
+Bars in Trade: 8
+Max Favorable: 1.11R
+Time: 2025-11-04 20:25:10
+
+[ENTRY | Bar 335 | BACKTEST]
+Direction: LONG
+Entry: 98.724 | SL: 96.04769979072874 | TP: 102.7384503139069
+Balance: $9,240.18
+Reasoning: System confirmed LONG breakout as current Close (98.72400) is above Bar-1 HA High (98.36200). The bullish trend is supported by 6 out of the last 10 green Heikin Ashi candles, strong volume at reversal points, and positive momentum indicators such as MACD and RSI within normal range but trending upwards. Despite being in overbought territory, these confirmations suggest a continuation of the uptrend.
+Time: 2025-11-04 20:26:07
+
+[EXIT | Bar 339 | BACKTEST]
+Direction: LONG
+Entry: 98.724 → Exit: 96.04769979072874
+Exit Reason: Stop Loss
+P&L: $-184.80 (-2.00%)
+R-Multiple: -1.00R
+Bars in Trade: 4
+Max Favorable: 0.05R
+Time: 2025-11-04 20:26:07
+
+[ENTRY | Bar 339 | BACKTEST]
+Direction: SHORT
+Entry: 97.256 | SL: 97.96913748692054 | TP: 96.18629376961918
+Balance: $9,055.38
+Reasoning: System confirmed short breakout as the current close is below Bar-1 HA Low, indicating a bearish reversal. Indicators support this with RSI trending downwards, MACD showing a bearish crossover, and high volume confirming the break at the low point.
+Time: 2025-11-04 20:26:59
+
+[EXIT | Bar 340 | BACKTEST]
+Direction: SHORT
+Entry: 97.256 → Exit: 97.96913748692054
+Exit Reason: Stop Loss
+P&L: $-181.11 (-2.00%)
+R-Multiple: -1.00R
+Bars in Trade: 1
+Max Favorable: 0.06R
+Time: 2025-11-04 20:26:59
+
+[ENTRY | Bar 340 | BACKTEST]
+Direction: LONG
+Entry: 98.956 | SL: 97.827 | TP: 100.64950000000002
+Balance: $8,874.27
+Reasoning: System confirmed LONG breakout above Bar-1 HA High with the current close of 98.95600, indicating a strong entry signal in an uptrend supported by various indicators like MACD above zero and bullish stochastic crossover despite overbought conditions.
+Time: 2025-11-04 20:28:02
+
+[EXIT | Bar 352 | BACKTEST]
+Direction: LONG
+Entry: 98.956 → Exit: 99.00696428571429
+Exit Reason: Break-Even Stop
+P&L: $8.01 (0.09%)
+R-Multiple: 0.05R
+Bars in Trade: 12
+Max Favorable: 2.21R
+Time: 2025-11-04 20:28:02
+
+[ENTRY | Bar 352 | BACKTEST]
+Direction: SHORT
+Entry: 98.986 | SL: 100.475 | TP: 96.75250000000003
+Balance: $8,882.28
+Reasoning: System confirmed short breakout as the current close is below Bar-1 HA Low. Key indicators support this bearish move: RSI at 55 (neutral but trending lower), MACD turning negative, and ADX confirming a developing bearish trend with -DI greater than +DI. Volume analysis shows normal levels, reinforcing the validity of the breakout.
+Time: 2025-11-04 20:29:42
+
+[EXIT | Bar 366 | BACKTEST]
+Direction: SHORT
+Entry: 98.986 → Exit: 98.07849999999999
+Exit Reason: Break-Even Stop
+P&L: $108.27 (1.22%)
+R-Multiple: 0.61R
+Bars in Trade: 14
+Max Favorable: 2.26R
+Time: 2025-11-04 20:29:42
+
+[ENTRY | Bar 366 | BACKTEST]
+Direction: LONG
+Entry: 98.63 | SL: 95.578 | TP: 103.20799999999998
+Balance: $8,990.55
+Reasoning: System confirmed LONG breakout as current close (98.63) is above Bar-1 HA High (97.986), indicating potential upward momentum. RSI at 47.6 suggests not yet overbought, with MACD turning positive and strong bullish trend context. Volume was high, supporting the breakout's validity.
+Time: 2025-11-04 20:30:29
+
+[EXIT | Bar 378 | BACKTEST]
+Direction: LONG
+Entry: 98.63 → Exit: 95.578
+Exit Reason: Stop Loss
+P&L: $-179.81 (-2.00%)
+R-Multiple: -1.00R
+Bars in Trade: 12
+Max Favorable: 0.37R
+Time: 2025-11-04 20:30:29
+
+[ENTRY | Bar 378 | BACKTEST]
+Direction: SHORT
+Entry: 95.307 | SL: 98.896 | TP: 89.9235
+Balance: $8,810.74
+Reasoning: The system confirmed a short breakout as the current close (95.30700) is below Bar-1 HA Low (96.11600). The presence of a red Heikin Ashi candle further emphasizes bearish sentiment. With RSI at 43.5 indicating oversold conditions, MACD crossing below zero, and ADX showing weak trend strength, this setup aligns with the system's confirmation for a short entry.
+Time: 2025-11-04 20:31:13
+
+[ENTRY | Bar 395 | BACKTEST]
+Direction: SHORT
+Entry: 95.159 | SL: 97.064 | TP: 92.30150000000003
+Balance: $8,808.63
+Reasoning: System confirmed short breakout as the current close (95.15900) is below Bar-1 HA Low (95.34200). The heikin ashis are bearish with a red color, ADX indicates a strong trend, and MACD is negative suggesting downward momentum. Volume is low which may indicate caution but doesn't negate the breakout confirmation.
+Time: 2025-11-04 20:33:47
+
+[EXIT | Bar 400 | BACKTEST]
+Direction: SHORT
+Entry: 95.159 → Exit: 97.064
+Exit Reason: Stop Loss
+P&L: $-176.17 (-2.00%)
+R-Multiple: -1.00R
+Bars in Trade: 5
+Max Favorable: 0.37R
+Time: 2025-11-04 20:33:47
+
+[ENTRY | Bar 400 | BACKTEST]
+Direction: LONG
+Entry: 98.66 | SL: 95.33 | TP: 103.655
+Balance: $8,632.46
+Reasoning: The system confirmed a long breakout with the current close exceeding Bar-1 HA High, indicating strong bullish momentum. The Heikin Ashi candles are predominantly green, supporting this trend direction. Despite overbought RSI levels, high volume at reversal points and an upward ADX suggest robustness in the uptrend.
+Time: 2025-11-04 20:34:39
+
+[EXIT | Bar 416 | BACKTEST]
+Direction: LONG
+Entry: 98.66 → Exit: 95.33
+Exit Reason: Stop Loss
+P&L: $-172.65 (-2.00%)
+R-Multiple: -1.00R
+Bars in Trade: 16
+Max Favorable: 0.06R
+Time: 2025-11-04 20:34:39
+
+[ENTRY | Bar 416 | BACKTEST]
+Direction: SHORT
+Entry: 95.218 | SL: 96.43375583385446 | TP: 93.39436624921831
+Balance: $8,459.81
+Reasoning: System confirmed short breakout as current close is below Bar-1 HA Low. Heikin Ashi trend and ADX indicate strong bearish momentum, while RSI in oversold condition suggests potential for a bounce but current downtrend supports the short trade. The setup is reinforced by high volume at reversal points indicating strong price action.
+Time: 2025-11-04 20:36:18
+
+[EXIT | Bar 418 | BACKTEST]
+Direction: SHORT
+Entry: 95.218 → Exit: 96.43375583385446
+Exit Reason: Stop Loss
+P&L: $-169.20 (-2.00%)
+R-Multiple: -1.00R
+Bars in Trade: 2
+Max Favorable: 0.16R
+Time: 2025-11-04 20:36:18
+
+[ENTRY | Bar 419 | BACKTEST]
+Direction: SHORT
+Entry: 95.192 | SL: 96.1 | TP: 93.82999999999998
+Balance: $8,290.61
+Reasoning: System confirmed short breakout as the current close is below Bar-1 HA Low. Indicators support this direction with RSI indicating oversold conditions, MACD trending negative, and ADX confirming strong bearish trend strength.
+Time: 2025-11-04 20:37:55
+
+[EXIT | Bar 422 | BACKTEST]
+Direction: SHORT
+Entry: 95.192 → Exit: 96.1
+Exit Reason: Stop Loss
+P&L: $-165.81 (-2.00%)
+R-Multiple: -1.00R
+Bars in Trade: 3
+Max Favorable: 0.09R
+Time: 2025-11-04 20:37:55
+
+[ENTRY | Bar 422 | BACKTEST]
+Direction: LONG
+Entry: 96.059 | SL: 95.142 | TP: 97.4345
+Balance: $8,124.80
+Reasoning: System confirmed LONG breakout above Bar-1 HA High, indicating a strong bullish signal. The RSI at 36.6 suggests the potential for upward movement as it is in the oversold region, and the MACD is near positive territory with -0.361. Additionally, a bullish cross in the Stochastic oscillator supports this move. The overall bearish trend from Heikin Ashi does not negate the breakout signal, especially with high volume at reversal points confirming strong interest.
+Time: 2025-11-04 20:38:54
+
+[EXIT | Bar 428 | BACKTEST]
+Direction: LONG
+Entry: 96.059 → Exit: 95.142
+Exit Reason: Stop Loss
+P&L: $-162.50 (-2.00%)
+R-Multiple: -1.00R
+Bars in Trade: 6
+Max Favorable: 1.01R
+Time: 2025-11-04 20:38:54
+
+[ENTRY | Bar 428 | BACKTEST]
+Direction: SHORT
+Entry: 95.354 | SL: 96.27547583150239 | TP: 93.97178625274641
+Balance: $7,962.30
+Reasoning: The pre-calculated breakout status confirms a short breakout as the current close (95.35400) is less than Bar-1 HA Low (96.05000). Heikin Ashi candle is red indicating bearish momentum, and price is below VWAP suggesting negative bias. RSI at 42.7 with a falling trend supports this bearish move.
+Time: 2025-11-04 20:39:47
+
+[EXIT | Bar 430 | BACKTEST]
+Direction: SHORT
+Entry: 95.354 → Exit: 94.31546428571428
+Exit Reason: Stop Loss
+P&L: $179.48 (2.25%)
+R-Multiple: 1.13R
+Bars in Trade: 2
+Max Favorable: 3.86R
+Time: 2025-11-04 20:39:47
+
+[ENTRY | Bar 430 | BACKTEST]
+Direction: SHORT
+Entry: 92.888 | SL: 96.179 | TP: 87.95150000000001
+Balance: $8,141.78
+Reasoning: The system has confirmed a short breakout as the current close (92.88800) is below Bar-1 HA Low (94.71100). The market shows a strong downtrend with RSI at 33.9, suggesting further decline potential without reaching oversold conditions yet. MACD confirms bearish momentum, reinforcing this short entry.
+Time: 2025-11-04 20:40:26
+
+[EXIT | Bar 456 | BACKTEST]
+Direction: SHORT
+Entry: 92.888 → Exit: 96.179
+Exit Reason: Stop Loss
+P&L: $-162.84 (-2.00%)
+R-Multiple: -1.00R
+Bars in Trade: 26
+Max Favorable: 0.35R
+Time: 2025-11-04 20:40:26
+
+[ENTRY | Bar 456 | BACKTEST]
+Direction: LONG
+Entry: 97.565 | SL: 94.584 | TP: 102.03649999999999
+Balance: $7,978.94
+Reasoning: System confirmed LONG breakout above Bar-1 HA High with a green Heikin Ashi candle, signaling an upward trend. RSI at 75 and MACD crossing above zero suggest bullish momentum despite overbought conditions. The strong ADX value indicates a clear trending market, supporting the long entry.
+Time: 2025-11-04 20:42:28
+
+[EXIT | Bar 463 | BACKTEST]
+Direction: LONG
+Entry: 97.565 → Exit: 94.584
+Exit Reason: Stop Loss
+P&L: $-159.58 (-2.00%)
+R-Multiple: -1.00R
+Bars in Trade: 7
+Max Favorable: 0.06R
+Time: 2025-11-04 20:42:28
+
+[ENTRY | Bar 463 | BACKTEST]
+Direction: SHORT
+Entry: 94.937 | SL: 96.93950134455766 | TP: 91.93324798316351
+Balance: $7,819.37
+Reasoning: The system confirmed a short breakout as the current close (94.93700) is below Bar-1 HA Low (95.04500). The bearish indicators such as RSI oversold at 45.7, MACD negative slope, and ADX showing strong downward trend support this entry. Additionally, the high volatility indicated by expanded Bollinger Bands further validates the short setup.
+Time: 2025-11-04 20:43:18
+
+[EXIT | Bar 491 | BACKTEST]
+Direction: SHORT
+Entry: 94.937 → Exit: 91.39682142857143
+Exit Reason: Stop Loss
+P&L: $276.47 (3.54%)
+R-Multiple: 1.77R
+Bars in Trade: 28
+Max Favorable: 2.36R
+Time: 2025-11-04 20:43:18
+
+[ENTRY | Bar 496 | BACKTEST]
+Direction: LONG
+Entry: 91.329 | SL: 90.9158005219315 | TP: 91.94879921710273
+Balance: $8,095.84
+Reasoning: The system confirmed a LONG breakout with the current close exceeding Bar-1 HA High, indicating bullish momentum. The Heikin Ashi candles are GREEN, supporting this trend. Despite low volume, RSI is moving away from oversold levels and MACD is turning positive, reinforcing the long signal.
+Time: 2025-11-04 20:48:08
+
+[EXIT | Bar 497 | BACKTEST]
+Direction: LONG
+Entry: 91.329 → Exit: 91.329
+Exit Reason: Break-Even Stop
+P&L: $0.00 (0.00%)
+R-Multiple: 0.00R
+Bars in Trade: 1
+Max Favorable: 2.92R
+Time: 2025-11-04 20:48:08
+
+[ENTRY | Bar 497 | BACKTEST]
+Direction: LONG
+Entry: 91.925 | SL: 91.04752526096576 | TP: 93.24121210855137
+Balance: $8,095.84
+Reasoning: The system has confirmed a long breakout as the current close (91.92500) is above Bar-1 HA High (91.34700). Indicators align with this bullish signal, including RSI rising from oversold levels and MACD turning positive. The strong uptrend and high volume at reversal points further validate this setup.
+Time: 2025-11-04 20:49:05
+
+[EXIT | Bar 498 | BACKTEST]
+Direction: LONG
+Entry: 91.925 → Exit: 91.04752526096576
+Exit Reason: Stop Loss
+P&L: $-161.92 (-2.00%)
+R-Multiple: -1.00R
+Bars in Trade: 1
+Max Favorable: 0.22R
+Time: 2025-11-04 20:49:05
+
+[ENTRY | Bar 498 | BACKTEST]
+Direction: SHORT
+Entry: 91.096 | SL: 91.39699999999999 | TP: 90.64450000000002
+Balance: $7,933.92
+Reasoning: The system has confirmed a SHORT BREAKOUT as the current close (91.096) is below Bar-1 HA Low (91.25963). Indicators such as RSI at 36.9 suggest oversold conditions but are not yet extreme, ADX at 49.3 indicates a strong trend in place, and Heikin Ashi candle color RED confirms bearish momentum. The high volume at this reversal point strongly supports the breakout.
+Time: 2025-11-04 20:49:53
+
+[EXIT | Bar 499 | BACKTEST]
+Direction: SHORT
+Entry: 91.096 → Exit: 91.39699999999999
+Exit Reason: Stop Loss
+P&L: $-158.68 (-2.00%)
+R-Multiple: -1.00R
+Bars in Trade: 1
+Max Favorable: 2.03R
+Time: 2025-11-04 20:49:53
+
+[ENTRY | Bar 501 | BACKTEST]
+Direction: SHORT
+Entry: 89.641 | SL: 91.592 | TP: 86.71450000000002
+Balance: $7,775.24
+Reasoning: System confirmed SHORT breakout as the current close is below Bar-1 HA Low, indicating a bearish reversal. Indicators like MACD, RSI in oversold territory, Stochastic showing a bearish cross, and high volume at this point support the short position.
+Time: 2025-11-04 20:53:28
+
+[EXIT | Bar 528 | BACKTEST]
+Direction: SHORT
+Entry: 89.641 → Exit: 91.592
+Exit Reason: Stop Loss
+P&L: $-155.50 (-2.00%)
+R-Multiple: -1.00R
+Bars in Trade: 27
+Max Favorable: 0.83R
+Time: 2025-11-04 20:53:28
+
+[ENTRY | Bar 528 | BACKTEST]
+Direction: LONG
+Entry: 91.287 | SL: 90.029 | TP: 93.17400000000002
+Balance: $7,619.74
+Reasoning: System confirmed LONG breakout with Current Close exceeding Bar-1 HA High. Indicators support this move: RSI at 78 suggesting nearing resistance but within momentum range, MACD positive crossing zero line indicating bullish trend, and ADX showing developing bullish trend. Volume is normal, enhancing the validity of the breakout.
+Time: 2025-11-04 20:54:19
+
+[EXIT | Bar 535 | BACKTEST]
+Direction: LONG
+Entry: 91.287 → Exit: 90.029
+Exit Reason: Stop Loss
+P&L: $-152.39 (-2.00%)
+R-Multiple: -1.00R
+Bars in Trade: 7
+Max Favorable: 0.83R
+Time: 2025-11-04 20:54:19
+
+[ENTRY | Bar 535 | BACKTEST]
+Direction: SHORT
+Entry: 90.091 | SL: 91.98949566683854 | TP: 87.24325649974219
+Balance: $7,467.34
+Reasoning: The system has confirmed a SHORT breakout with the current close at 90.09100 being lower than Bar-1 HA Low of 90.24800, indicating strong bearish momentum. Supporting indicators include an oversold RSI and a bullish cross in stochastic suggesting reversal potential, alongside high volume that reinforces this setup's validity. The presence of a bearish engulfing pattern corroborates the trend change to downward.
+Time: 2025-11-04 20:55:25
+
+[EXIT | Bar 566 | BACKTEST]
+Direction: SHORT
+Entry: 90.091 → Exit: 87.52567857142857
+Exit Reason: Break-Even Stop
+P&L: $201.80 (2.70%)
+R-Multiple: 1.35R
+Bars in Trade: 31
+Max Favorable: 2.77R
+Time: 2025-11-04 20:55:25

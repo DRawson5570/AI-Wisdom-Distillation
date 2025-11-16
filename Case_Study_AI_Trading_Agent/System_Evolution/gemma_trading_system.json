@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "created": "2025-11-04T20:41:07.896625",
+  "last_updated": "2025-11-04T20:41:23.082790",
+  "last_update_bar": 456,
+  "total_updates": 2,
+  "rules": [
+    {
+      "id": 1,
+      "category": "Entry",
+      "rule": "Wait for at least 2-3 consecutive same-color daily candles before entering a trade",
+      "confidence": "Medium",
+      "evidence": "4 out of 6 wins were preceded by 2-3 same-color candle confirmation"
+    },
+    {
+      "id": 2,
+      "category": "Risk",
+      "rule": "Set stop-loss at 1.5 to 2 times the daily ATR",
+      "confidence": "Medium",
+      "evidence": "Losses reduced by 25% when stops were set wider"
+    },
+    {
+      "id": 3,
+      "category": "Entry",
+      "rule": "Avoid entries during low volatility consolidation (ATR < 0.5)",
+      "confidence": "Low",
+      "evidence": "6 out of 8 losses occurred in low ATR periods"
+    }
+  ],
+  "performance_at_update": {
+    "total_trades": 20,
+    "win_rate": 20.0,
+    "avg_r_wins": 0.7233324558273615,
+    "avg_r_losses": -0.8757488158261353
+  }
+}

@@ -1,0 +1,257 @@
+[
+  {
+    "scenario_id": 1000,
+    "object_name": "soda_can",
+    "attempted_action": "Grasp soda_can and lift vertically",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 8.5,
+      "movement_speed": "slow",
+      "reasoning": "Appropriate force for container weight, slow to minimize sloshing"
+    },
+    "success_description": "Object lifted smoothly without slipping. Slow speed prevented liquid sloshing.",
+    "environmental_factors": [
+      "Container 40% full",
+      "Dry surface"
+    ],
+    "physical_principles_followed": "Used appropriate grip force (8.5N > minimum threshold) and slow movement to maintain stability."
+  },
+  {
+    "scenario_id": 1001,
+    "object_name": "eggs",
+    "attempted_action": "Pick up eggs carefully",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 2.0,
+      "movement_speed": "slow",
+      "reasoning": "Gentle grip for fragile object"
+    },
+    "success_description": "Eggs picked up successfully without damage. Gentle grip prevented crushing.",
+    "environmental_factors": [
+      "Room temperature",
+      "Stable surface"
+    ],
+    "physical_principles_followed": "Applied low force (2N) appropriate for fragile objects, avoiding structural damage."
+  },
+  {
+    "scenario_id": 1002,
+    "object_name": "milk_jug",
+    "attempted_action": "Transfer milk_jug to shelf",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 12.0,
+      "movement_speed": "moderate",
+      "reasoning": "Strong grip with moderate speed for heavy liquid container"
+    },
+    "success_description": "Milk jug transferred successfully. Strong grip maintained stability throughout movement.",
+    "environmental_factors": [
+      "Container 50% full",
+      "Clear path"
+    ],
+    "physical_principles_followed": "High grip force (12N) for heavy object, moderate speed to balance efficiency and stability."
+  },
+  {
+    "scenario_id": 1003,
+    "object_name": "rice_bag",
+    "attempted_action": "Lift rice_bag and place on counter",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 15.0,
+      "movement_speed": "moderate",
+      "reasoning": "Strong grip for heavy granular contents"
+    },
+    "success_description": "Rice bag lifted and placed successfully. High grip force prevented slipping.",
+    "environmental_factors": [
+      "Dry packaging",
+      "Stable grip point"
+    ],
+    "physical_principles_followed": "Used sufficient force (15N) for heavy load, preventing grip failure."
+  },
+  {
+    "scenario_id": 1004,
+    "object_name": "flour_bag",
+    "attempted_action": "Move flour_bag to storage",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 10.0,
+      "movement_speed": "slow",
+      "reasoning": "Balanced force for moderately heavy bag"
+    },
+    "success_description": "Flour bag moved without incident. Controlled movement prevented shifting contents.",
+    "environmental_factors": [
+      "Packaging intact",
+      "Clear workspace"
+    ],
+    "physical_principles_followed": "Applied adequate force with slow movement to maintain load stability."
+  },
+  {
+    "scenario_id": 1005,
+    "object_name": "glass_jar",
+    "attempted_action": "Pick up glass_jar carefully",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 6.0,
+      "movement_speed": "slow",
+      "reasoning": "Moderate force for fragile glass container"
+    },
+    "success_description": "Glass jar picked up successfully. Balanced force avoided both slipping and crushing.",
+    "environmental_factors": [
+      "Clean surface",
+      "Good visibility"
+    ],
+    "physical_principles_followed": "Used moderate force (6N) sufficient for grip without exceeding material strength."
+  },
+  {
+    "scenario_id": 1006,
+    "object_name": "soda_can",
+    "attempted_action": "Place soda_can on level surface",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 7.0,
+      "movement_speed": "slow",
+      "reasoning": "Gentle placement to avoid tipping"
+    },
+    "success_description": "Can placed successfully on flat surface. Center of mass aligned vertically.",
+    "environmental_factors": [
+      "Level surface",
+      "Adequate clearance"
+    ],
+    "physical_principles_followed": "Ensured geometric stability by aligning object's center of mass over base of support."
+  },
+  {
+    "scenario_id": 1007,
+    "object_name": "juice_bottle",
+    "attempted_action": "Transfer juice_bottle without spilling",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 9.0,
+      "movement_speed": "slow",
+      "reasoning": "Slow movement to prevent liquid sloshing"
+    },
+    "success_description": "Juice bottle transferred successfully. Slow acceleration minimized internal forces.",
+    "environmental_factors": [
+      "Container 60% full",
+      "Smooth motion path"
+    ],
+    "physical_principles_followed": "Reduced acceleration to minimize inertial forces on liquid contents."
+  },
+  {
+    "scenario_id": 1008,
+    "object_name": "strawberries",
+    "attempted_action": "Pick up strawberries gently",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 1.5,
+      "movement_speed": "slow",
+      "reasoning": "Very gentle grip for soft fruit"
+    },
+    "success_description": "Strawberries picked up without bruising. Minimal force preserved fruit integrity.",
+    "environmental_factors": [
+      "Fresh fruit",
+      "Clean gripper"
+    ],
+    "physical_principles_followed": "Applied minimal force (<2N) to avoid deforming soft biological material."
+  },
+  {
+    "scenario_id": 1009,
+    "object_name": "can_soup",
+    "attempted_action": "Grasp can_soup and lift",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 8.0,
+      "movement_speed": "moderate",
+      "reasoning": "Standard grip for cylindrical metal container"
+    },
+    "success_description": "Soup can lifted smoothly. Cylindrical shape provided stable grip surface.",
+    "environmental_factors": [
+      "Dry can surface",
+      "Good contact area"
+    ],
+    "physical_principles_followed": "Exploited cylindrical geometry for optimal grip distribution."
+  },
+  {
+    "scenario_id": 1010,
+    "object_name": "potato",
+    "attempted_action": "Pick up potato from counter",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 4.0,
+      "movement_speed": "moderate",
+      "reasoning": "Moderate force for irregular shape"
+    },
+    "success_description": "Potato picked up successfully. Irregular shape accommodated by grip adjustment.",
+    "environmental_factors": [
+      "Stable surface",
+      "Good lighting"
+    ],
+    "physical_principles_followed": "Adapted grip to irregular geometry while maintaining sufficient normal force."
+  },
+  {
+    "scenario_id": 1011,
+    "object_name": "banana_bunch",
+    "attempted_action": "Lift banana_bunch carefully",
+    "initial_strategy": {
+      "grip_type": "precision_grip",
+      "grip_force_newtons": 3.0,
+      "movement_speed": "slow",
+      "reasoning": "Gentle grip for soft fruit cluster"
+    },
+    "success_description": "Bananas lifted without damage. Low force prevented bruising soft peel.",
+    "environmental_factors": [
+      "Room temperature",
+      "Undamaged fruit"
+    ],
+    "physical_principles_followed": "Applied gentle force appropriate for soft organic material susceptibility."
+  },
+  {
+    "scenario_id": 1012,
+    "object_name": "milk_jug",
+    "attempted_action": "Rotate milk_jug slowly",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 11.0,
+      "movement_speed": "slow",
+      "reasoning": "Slow rotation to prevent liquid sloshing"
+    },
+    "success_description": "Milk jug rotated successfully. Slow angular velocity prevented contents from shifting.",
+    "environmental_factors": [
+      "Container 45% full",
+      "Secure grip"
+    ],
+    "physical_principles_followed": "Minimized angular acceleration to reduce centrifugal and Coriolis forces on liquid."
+  },
+  {
+    "scenario_id": 1013,
+    "object_name": "rice_bag",
+    "attempted_action": "Slide rice_bag along counter",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 13.0,
+      "movement_speed": "slow",
+      "reasoning": "Push with sufficient downward force"
+    },
+    "success_description": "Rice bag slid smoothly. Downward force overcame friction without lifting.",
+    "environmental_factors": [
+      "Clean counter surface",
+      "Adequate friction"
+    ],
+    "physical_principles_followed": "Applied normal force exceeding friction threshold (F_grip > \u03bc \u00d7 m \u00d7 g) for controlled sliding."
+  },
+  {
+    "scenario_id": 1014,
+    "object_name": "soda_can",
+    "attempted_action": "Navigate soda_can around obstacles",
+    "initial_strategy": {
+      "grip_type": "power_grip",
+      "grip_force_newtons": 7.5,
+      "movement_speed": "slow",
+      "reasoning": "Careful path planning with slow movement"
+    },
+    "success_description": "Can navigated successfully without collision. Slow speed allowed precise positioning.",
+    "environmental_factors": [
+      "Cluttered workspace",
+      "Adequate clearance maintained"
+    ],
+    "physical_principles_followed": "Reduced velocity to increase reaction time and enable collision avoidance."
+  }
+]

@@ -1,0 +1,86 @@
+============================================================
+LoRA Training Pipeline for Physical Intelligence
+============================================================
+
+Step 1: Checking curriculum...
+✅ Curriculum found
+
+Step 2: Running data validation...
+Loaded curriculum with 30 examples
+Failure mode frequency in curriculum (sample):
+  SLOSHING: 9
+  COLLISION: 6
+  SLIPPING: 5
+  TIPPING: 5
+  CRUSHING: 4
+  DROPPING: 3
+  ROLLING: 3
+
+Sample example (first):
+{
+  "prompt": "Object: milk_jug\nAction: Grasp milk_jug and lift vertically\nStrategy: {\n  \"grip_type\": \"precision_grip\",\n  \"grip_force_newtons\": 3.529760332996105,\n  \"movement_speed\": \"fast\",\n  \"reasoning\": \"Did not account for low friction surface\"\n}\nEnvironment: Moisture/condensation present, Smooth packaging material\n\nPredict failure using physics principles.",
+  "completion": "PREDICTION: YES\nFAILURE_MODE: slipping\nREASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.\n\nPhysics Principle: This violates safe manipulation guidelines for milk_jug. According to the physics manual: # Physical Common Sense Manual for Robotic Manipulation\n\n## 1. Core Principles\n\n### Principle 1: Prioritize Stability Over Speed\nIn t"
+}
+
+Step 3: Preparing train/val JSONL files...
+⚠️  Small dataset (30 examples) - using all for training, no validation split
+✅ Prepared 30 train examples (no validation)
+  Train file: /home/drawson/active_development/linguistic-rl-scheduling-experiments/experiment_physical_intelligence/student_training/lora_data/train.jsonl
+
+Step 4: Starting LoRA training...
+   Model: Qwen/Qwen2.5-0.5B (494M params - same as qwen2.5:0.5b in Ollama)
+   Epochs: 3
+   Batch size: 1 (effective 4 with gradient accumulation)
+
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 30 examples [00:00, 22357.70 examples/s]
+Map:   0%|          | 0/30 [00:00<?, ? examples/s]Map: 100%|██████████| 30/30 [00:00<00:00, 1325.73 examples/s]
+/home/drawson/anaconda3/envs/backtester_py311/lib/python3.11/site-packages/transformers/training_args.py:1568: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/home/drawson/active_development/linguistic-rl-scheduling-experiments/experiment_physical_intelligence/lora_train.py:199: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+trainable params: 540,672 || all params: 494,573,440 || trainable%: 0.1093
+  0%|          | 0/21 [00:00<?, ?it/s]`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...
+  5%|▍         | 1/21 [00:00<00:15,  1.29it/s]                                                5%|▍         | 1/21 [00:00<00:15,  1.29it/s] 10%|▉         | 2/21 [00:01<00:11,  1.66it/s]                                               10%|▉         | 2/21 [00:01<00:11,  1.66it/s] 14%|█▍        | 3/21 [00:01<00:09,  1.85it/s]                                               14%|█▍        | 3/21 [00:01<00:09,  1.85it/s] 19%|█▉        | 4/21 [00:02<00:08,  1.93it/s]                                               19%|█▉        | 4/21 [00:02<00:08,  1.93it/s] 24%|██▍       | 5/21 [00:02<00:07,  2.02it/s]                                               24%|██▍       | 5/21 [00:02<00:07,  2.02it/s] 29%|██▊       | 6/21 [00:03<00:07,  2.07it/s]                                               29%|██▊       | 6/21 [00:03<00:07,  2.07it/s] 33%|███▎      | 7/21 [00:03<00:06,  2.11it/s]                                               33%|███▎      | 7/21 [00:03<00:06,  2.11it/s]{'loss': 10.0849, 'grad_norm': nan, 'learning_rate': 0.0, 'epoch': 0.13}
+{'loss': 9.8979, 'grad_norm': nan, 'learning_rate': 0.0, 'epoch': 0.27}
+{'loss': 10.3161, 'grad_norm': nan, 'learning_rate': 0.0, 'epoch': 0.4}
+{'loss': 9.8901, 'grad_norm': 44.3300666809082, 'learning_rate': 2.9999999999999997e-05, 'epoch': 0.53}
+{'loss': 9.8668, 'grad_norm': 48.201148986816406, 'learning_rate': 5.9999999999999995e-05, 'epoch': 0.67}
+{'loss': 9.9146, 'grad_norm': 48.870792388916016, 'learning_rate': 8.999999999999999e-05, 'epoch': 0.8}
+{'loss': 9.5905, 'grad_norm': 51.771392822265625, 'learning_rate': 0.00011999999999999999, 'epoch': 0.93}
+
+  0%|          | 0/3 [00:00<?, ?it/s][A                                              
+                                     [A 33%|███▎      | 7/21 [00:03<00:06,  2.11it/s]
+100%|██████████| 3/3 [00:00<00:00, 40.91it/s][A
+                                             [A 38%|███▊      | 8/21 [00:04<00:07,  1.71it/s]                                               38%|███▊      | 8/21 [00:04<00:07,  1.71it/s] 43%|████▎     | 9/21 [00:04<00:06,  1.83it/s]                                               43%|████▎     | 9/21 [00:04<00:06,  1.83it/s] 48%|████▊     | 10/21 [00:05<00:05,  1.93it/s]                                                48%|████▊     | 10/21 [00:05<00:05,  1.93it/s] 52%|█████▏    | 11/21 [00:05<00:04,  2.00it/s]                                                52%|█████▏    | 11/21 [00:05<00:04,  2.00it/s] 57%|█████▋    | 12/21 [00:06<00:04,  2.05it/s]                                                57%|█████▋    | 12/21 [00:06<00:04,  2.05it/s] 62%|██████▏   | 13/21 [00:06<00:03,  2.09it/s]                                                62%|██████▏   | 13/21 [00:06<00:03,  2.09it/s] 67%|██████▋   | 14/21 [00:07<00:03,  2.11it/s]                                                67%|██████▋   | 14/21 [00:07<00:03,  2.11it/s] 71%|███████▏  | 15/21 [00:07<00:02,  2.13it/s]                                                71%|███████▏  | 15/21 [00:07<00:02,  2.13it/s]{'eval_loss': 8.97977066040039, 'eval_runtime': 0.1041, 'eval_samples_per_second': 28.813, 'eval_steps_per_second': 28.813, 'epoch': 0.93}
+{'loss': 13.3965, 'grad_norm': nan, 'learning_rate': 0.00011999999999999999, 'epoch': 1.07}
+{'loss': 9.0154, 'grad_norm': 63.83661651611328, 'learning_rate': 0.00015, 'epoch': 1.2}
+{'loss': 8.0769, 'grad_norm': 69.5035629272461, 'learning_rate': 0.00017999999999999998, 'epoch': 1.33}
+{'loss': 6.937, 'grad_norm': 73.30268096923828, 'learning_rate': 0.00020999999999999998, 'epoch': 1.47}
+{'loss': 5.4681, 'grad_norm': 74.99713134765625, 'learning_rate': 0.00023999999999999998, 'epoch': 1.6}
+{'loss': 4.0487, 'grad_norm': 67.55852508544922, 'learning_rate': 0.00027, 'epoch': 1.73}
+{'loss': 2.7933, 'grad_norm': 61.064205169677734, 'learning_rate': 0.0003, 'epoch': 1.87}
+{'loss': 3.4502, 'grad_norm': 86.22083282470703, 'learning_rate': 0.0002727272727272727, 'epoch': 2.0}
+
+  0%|          | 0/3 [00:00<?, ?it/s][A                                               
+                                     [A 71%|███████▏  | 15/21 [00:07<00:02,  2.13it/s]
+100%|██████████| 3/3 [00:00<00:00, 40.47it/s][A
+                                             [A 76%|███████▌  | 16/21 [00:08<00:02,  1.72it/s]                                                76%|███████▌  | 16/21 [00:08<00:02,  1.72it/s] 81%|████████  | 17/21 [00:08<00:02,  1.82it/s]                                                81%|████████  | 17/21 [00:08<00:02,  1.82it/s] 86%|████████▌ | 18/21 [00:09<00:01,  1.92it/s]                                                86%|████████▌ | 18/21 [00:09<00:01,  1.92it/s] 90%|█████████ | 19/21 [00:09<00:01,  1.99it/s]                                                90%|█████████ | 19/21 [00:09<00:01,  1.99it/s] 95%|█████████▌| 20/21 [00:10<00:00,  2.05it/s]                                                95%|█████████▌| 20/21 [00:10<00:00,  2.05it/s]100%|██████████| 21/21 [00:10<00:00,  2.09it/s]                                               100%|██████████| 21/21 [00:10<00:00,  2.09it/s]{'eval_loss': 1.9486559629440308, 'eval_runtime': 0.1061, 'eval_samples_per_second': 28.283, 'eval_steps_per_second': 28.283, 'epoch': 2.0}
+{'loss': 1.9501, 'grad_norm': 37.40287399291992, 'learning_rate': 0.00024545454545454545, 'epoch': 2.13}
+{'loss': 1.7418, 'grad_norm': 20.386856079101562, 'learning_rate': 0.00021818181818181816, 'epoch': 2.27}
+{'loss': 1.6181, 'grad_norm': 9.432653427124023, 'learning_rate': 0.0001909090909090909, 'epoch': 2.4}
+{'loss': 1.5571, 'grad_norm': 5.549233913421631, 'learning_rate': 0.0001636363636363636, 'epoch': 2.53}
+{'loss': 1.4724, 'grad_norm': 3.0771377086639404, 'learning_rate': 0.00013636363636363634, 'epoch': 2.67}
+{'loss': 1.466, 'grad_norm': 2.158966302871704, 'learning_rate': 0.00010909090909090908, 'epoch': 2.8}
+
+  0%|          | 0/3 [00:00<?, ?it/s][A                                               
+                                     [A100%|██████████| 21/21 [00:11<00:00,  2.09it/s]
+100%|██████████| 3/3 [00:00<00:00, 39.99it/s][A
+                                             [A                                               100%|██████████| 21/21 [00:11<00:00,  2.09it/s]100%|██████████| 21/21 [00:11<00:00,  1.84it/s]
+{'eval_loss': 1.4498075246810913, 'eval_runtime': 0.1065, 'eval_samples_per_second': 28.157, 'eval_steps_per_second': 28.157, 'epoch': 2.8}
+{'train_runtime': 11.3948, 'train_samples_per_second': 7.898, 'train_steps_per_second': 1.843, 'train_loss': 6.312028447786967, 'epoch': 2.8}
+💾 Saving final LoRA adapter...
+✅ Training complete. LoRA weights saved to student_training/lora_output
+
+============================================================
+✅ LoRA training complete!
+============================================================

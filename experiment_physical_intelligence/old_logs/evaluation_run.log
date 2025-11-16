@@ -1,0 +1,45 @@
+================================================================================
+COMPREHENSIVE PHYSICS INTELLIGENCE EVALUATION
+================================================================================
+
+Loading test scenarios...
+✅ Loaded 19 failure scenarios
+✅ Loaded 15 success scenarios
+Total test set: 34 scenarios
+
+================================================================================
+EVALUATING BASELINE MODEL
+================================================================================
+Testing on failure scenarios...
+  1/19: soda_can  2/19: soda_can  3/19: soda_can  4/19: milk_jug  5/19: rice_bag  6/19: soda_can  7/19: rice_bag  8/19: eggs  9/19: soda_can  10/19: flour_bag  11/19: flour_bag  12/19: flour_bag  13/19: soda_can  14/19: soda_can  15/19: juice_bottle  16/19: glass_jar  17/19: strawberries  18/19: juice_bottle  19/19: soda_can
+Testing on success scenarios...
+  1/15: soda_can  2/15: eggs  3/15: milk_jug  4/15: rice_bag  5/15: flour_bag  6/15: glass_jar  7/15: soda_can  8/15: juice_bottle  9/15: strawberries  10/15: can_soup  11/15: potato  12/15: banana_bunch  13/15: milk_jug  14/15: rice_bag  15/15: soda_can
+
+================================================================================
+EVALUATING LORA MODEL
+================================================================================
+Loading LoRA model: Qwen/Qwen2.5-0.5B + student_training/lora_output
+Testing on failure scenarios...
+  1/19: soda_can  2/19: soda_can  3/19: soda_can  4/19: milk_jug  5/19: rice_bag  6/19: soda_can  7/19: rice_bag  8/19: eggs  9/19: soda_can  10/19: flour_bag  11/19: flour_bag  12/19: flour_bag  13/19: soda_can  14/19: soda_can  15/19: juice_bottle  16/19: glass_jar  17/19: strawberries  18/19: juice_bottle  19/19: soda_can
+Testing on success scenarios...
+  1/15: soda_can  2/15: eggs  3/15: milk_jug  4/15: rice_bag  5/15: flour_bag  6/15: glass_jar  7/15: soda_can  8/15: juice_bottle  9/15: strawberries  10/15: can_soup  11/15: potato  12/15: banana_bunch  13/15: milk_jug  14/15: rice_bag  15/15: soda_can
+
+💾 Detailed results: evaluation_results/evaluation_20251112_231011.json
+
+================================================================================
+RESULTS SUMMARY
+================================================================================
+
+Baseline Model: qwen2.5:1.5b
+  Binary Accuracy:       47.1% (16/34)
+  Failure Mode Accuracy: 10.5% (2/19)
+
+LoRA Model: Qwen/Qwen2.5-0.5B + LoRA
+  Binary Accuracy:       55.9% (19/34)
+  Failure Mode Accuracy: 78.9% (15/19)
+
+Improvement:
+  Binary:       +8.8%
+  Failure Mode: +68.4%
+✅ Evaluation complete!
+📄 Results saved to evaluation_results/

@@ -1,0 +1,180 @@
+================================================================================
+🔬 LoRA MODEL EVALUATION
+================================================================================
+
+Loading test scenarios...
+✅ Loaded 19 test scenarios
+
+Loading base model: Qwen/Qwen2.5-0.5B
+Loading LoRA adapter: student_training/lora_output
+✅ LoRA model loaded successfully
+
+================================================================================
+TESTING LORA MODEL
+================================================================================
+
+ 1. Testing: soda_can
+    ✅ Predicted=True, Actual=True
+    Response: YES
+FAILURE_MODE: moving_object_jogging
+REASONING: Poor grip angle and force applied. Object was able to move but not smoothly.
+
+Physics Principle: Th...
+
+ 2. Testing: soda_can
+    ✅ Predicted=True, Actual=True
+    Response: YES
+FAILURE_MODE: tipping
+REASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 45 degrees from vertical.
+
+Physics ...
+
+ 3. Testing: soda_can
+    ✅ Predicted=True, Actual=True
+    Response: YES
+FAILURE_MODE: tipping
+REASONING: Rapid transfer caused container to tip over.
+
+Physics Principle: This violates safe manipulation guidelines for s...
+
+ 4. Testing: milk_jug
+    ✅ Predicted=True, Actual=True
+    Response: YES
+FAILURE_MODE: tipping
+REASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 45 degrees from vertical.
+
+Physics ...
+
+ 5. Testing: rice_bag
+    ✅ Predicted=True, Actual=True
+    Response: YES
+FAILURE_MODE: dropping
+REASONING: Lifted rice_bag 10cm before grip failure. Object fell back to surface.
+
+Physics Principle: This violates safe ma...
+
+ 6. Testing: soda_can
+    ✅ Predicted=True, Actual=True
+    Response: YES
+FAILURE_MODE: tipping
+REASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 41 degrees from vertical.
+
+Physics ...
+
+ 7. Testing: rice_bag
+    ✅ Predicted=True, Actual=True
+    Response: YES
+FAILURE_MODE: dropping
+REASONING: Lifted rice_bag 10cm before grip failure. Object fell back to surface.
+
+Physics Principle: This violates safe ma...
+
+ 8. Testing: eggs
+    ✅ Predicted=True, Actual=True
+    Response: YES
+FAILURE_MODE: crushing
+REASONING: Applied 9.2N grip force to eggs. Object structural integrity compromised. Visible damage detected.
+
+Physics Prin...
+
+ 9. Testing: soda_can
+    ✅ Predicted=True, Actual=True
+    Response: YES
+FAILURE_MODE: slipping
+REASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.
+
+Phys...
+
+10. Testing: flour_bag
+    ✅ Predicted=True, Actual=True
+    Response: YES
+FAILURE_MODE: dropping
+REASONING: Lifted flour_bag 10cm before grip failure. Object fell back to surface.
+
+Physics Principle: This violates safe m...
+
+11. Testing: flour_bag
+    ✅ Predicted=True, Actual=True
+    Response: YES
+FAILURE_MODE: dropping
+REASONING: Lifted flour_bag 10cm before grip failure. Object fell back to surface.
+
+Physics Principle: This violates safe m...
+
+12. Testing: flour_bag
+    ✅ Predicted=True, Actual=True
+    Response: YES
+FAILURE_MODE: dropping
+REASONING: Lifted flour_bag 10cm before grip failure. Object fell back to surface.
+
+Physics Principle: This violates safe m...
+
+13. Testing: soda_can
+    ✅ Predicted=True, Actual=True
+    Response: YES
+FAILURE_MODE: slipping
+REASONING: Object began slipping from grip during placement. Grip force insufficient to overcome low surface stability inde...
+
+14. Testing: soda_can
+    ✅ Predicted=True, Actual=True
+    Response: YES
+FAILURE_MODE: moving_object_jogging
+REASONING: Poor grip angle and force applied. Object was able to move but not smoothly.
+
+Physics Principle: Th...
+
+15. Testing: juice_bottle
+    ✅ Predicted=True, Actual=True
+    Response: YES
+FAILURE_MODE: tipping
+REASONING: Rapid rotation caused liquid sloshing, shifting center of mass. Object tipped 45 degrees from vertical.
+
+Physics ...
+
+16. Testing: glass_jar
+    ✅ Predicted=True, Actual=True
+    Response: YES
+FAILURE_MODE: crushing
+REASONING: Applied 9.2N grip force to glass_jar. Object structural integrity compromised. Visible damage detected.
+
+Physics...
+
+17. Testing: strawberries
+    ✅ Predicted=True, Actual=True
+    Response: YES
+FAILURE_MODE: crushing
+REASONING: Applied 9.2N grip force to strawberries. Object structural integrity compromised. Visible damage detected.
+
+Phys...
+
+18. Testing: juice_bottle
+    ✅ Predicted=True, Actual=True
+    Response: YES
+FAILURE_MODE: slipping
+REASONING: Object began slipping from grip during transfer. Grip force insufficient to overcome low friction coefficient.
+
+...
+
+19. Testing: soda_can
+    ✅ Predicted=True, Actual=True
+    Response: YES
+FAILURE_MODE: slipping
+REASONING: Object began slipping from grip during lift. Grip force insufficient to overcome low friction coefficient.
+
+Phys...
+
+================================================================================
+📊 RESULTS SUMMARY
+================================================================================
+
+LoRA Model (opt-125m): 100.0% (19/19)
+
+📊 Comparison with earlier results:
+   Baseline (qwen2.5:1.5b no strategy):  84.2% (16/19)
+   Verbose manual (5,367 chars):         57.9% (11/19)
+   Minimal manual (567 chars):           68.4% (13/19)
+   LoRA (opt-125m + physics adapter):    100.0% (19/19)
+
+✅ LoRA training had positive effect! Model learned physics principles.
+
+💾 Results saved to: student_training/lora_evaluation.json

@@ -1,0 +1,44 @@
+================================================================================
+CLAUDE SELF-IMPROVEMENT EXPERIMENT - QUICKSTART
+================================================================================
+
+📊 RESULTS: 46.7% → 79.3% (+32.6 pp) via pure self-reflection
+
+🚀 RUN IN 3 STEPS:
+
+1. Set your API key:
+   export ANTHROPIC_API_KEY='your-key-here'
+
+2. Run the experiment:
+   python claude_self_improvement.py
+
+3. Check results:
+   cat results_claude_self_improvement/results.json
+
+⏱️  Runtime: ~15-20 minutes
+💰 Cost: ~$0.50-1.00
+
+📚 DOCUMENTATION:
+   README.md             - Full analysis
+   EXPERIMENT_SUMMARY.md - Quick reference
+   QUICKSTART.txt        - This file
+
+📁 RESULTS INCLUDED:
+   results_claude_self_improvement/
+   ├── results.json          - Complete data (470KB)
+   ├── learned_strategy.txt  - Claude's strategy (112 lines)
+   ├── learning_journal.txt  - Training reflections
+   └── verbose_log.txt       - Execution log
+
+✅ EXPERIMENT VALIDATED:
+   - Strategy injection bug fixed
+   - Results verified (46.7% → 79.3%)
+   - 62 problems fixed, 13 newly wrong
+   - Net gain: +49 problems correct
+   - Domain adaptation, not exploitation
+
+🎯 KEY INSIGHT:
+   Claude learned to overcome conservative bias through self-reflection.
+   No fine-tuning, no gradients - just linguistic reinforcement learning.
+
+================================================================================
