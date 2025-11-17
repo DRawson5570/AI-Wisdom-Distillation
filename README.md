@@ -1,5 +1,7 @@
 # Linguistic Reinforcement Learning as a Mechanism for Algorithmic Knowledge Transfer
 >
+>Questions/Comments: rawson.douglas@gmail.com
+>
 **🔥 BREAKTHROUGH: We have discovered a method to extract algorithmic knowledge from frontier AI models, compress it into natural language, and "compile" it into small, open-source models. The result: a 1.5B parameter model that outperforms a 100B+ parameter teacher.**
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
