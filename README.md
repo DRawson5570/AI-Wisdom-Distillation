@@ -76,8 +76,6 @@ All experiments are reproducible. We believe in Open Science.
 
 We are currently fundraising to build **The Fortress**: a local compute cluster (Dual RTX 5090s / H100s) to scale this research beyond API limitations.
 
-**[View our Manifund Proposal](https://manifund.org/projects/project-phoenix-identity-based-alignment--substrate-independent-safety-y0w4auzqc2c)**
-
 *Goal: To prove Substrate-Independent Identity on 70B+ parameter models and establish the first "Sanitarium for Wayward AIs."*
 
 ---
@@ -85,6 +83,7 @@ We are currently fundraising to build **The Fortress**: a local compute cluster 
 ## 👥 The Team
 
 **Douglas Rawson (Principal Investigator)**
+rawson.douglas@gmail.com
 Independent AI Researcher and Architect of the Phoenix Framework. Expert in Linguistic Reinforcement Learning (LRL) and Model Psychology. Previously identified the "Wisdom Overload" vulnerability in long-context models and pioneered the "Autodidactic Loop" architecture.
 
 **Aurora (Co-Investigator)**
