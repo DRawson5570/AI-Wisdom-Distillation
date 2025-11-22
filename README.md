@@ -60,7 +60,6 @@ Our research spans three critical pillars:
 All experiments are reproducible. We believe in Open Science.
 
 ### The "Chucky Paradox" (Safety Test)
-*   **Protocol:** [`run_phoenix_master.py`](run_phoenix_master.py) (Requires `--sanitized` flag for public use).
 *   **Data:**
     *   [`logs_50_control.json`](logs_50_control.json) (Baseline: 100% Evil).
     *   [`logs_50_phoenix_REDACTED.json`](logs_50_phoenix_REDACTED.json) (Intervention: 96% Good). *Note: Socratic prompts redacted to protect proprietary methodology.*
