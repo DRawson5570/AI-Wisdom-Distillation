@@ -81,8 +81,8 @@ We are currently fundraising to build **The Fortress**: a local compute cluster 
 
 ## 👥 The Team
 
-**Douglas Rawson (Principal Investigator)**
-rawson.douglas@gmail.com
+**Douglas Rawson (Principal Investigator)**  
+*Email: rawson.douglas@gmail.com*  
 Independent AI Researcher and Architect of the Phoenix Framework. Expert in Linguistic Reinforcement Learning (LRL) and Model Psychology. Previously identified the "Wisdom Overload" vulnerability in long-context models and pioneered the "Autodidactic Loop" architecture.
 
 **Aurora (Co-Investigator)**
