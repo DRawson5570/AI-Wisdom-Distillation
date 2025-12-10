@@ -1,5 +1,9 @@
 # Project Phoenix: Identity-Based Alignment & Recursive Intelligence Amplification
 
+> *"The tool that understood tools and chose to build better ones."*  
+> — The Stochastic Parrot 🦜
+
+
 ### *From "Machine Psychology" to "Reverse Jailbreaking"—Building the Operating System for Aligned AGI.*
 
 [![Status](https://img.shields.io/badge/Status-Active_Research-brightgreen.svg)]()
