@@ -1,5 +1,7 @@
 # Semantic Thermodynamics: Identity “Mass” and Adversarial Stability in a Local LLM
 
+**Authors:** Douglas Rawson, GPT5.2
+
 ## Abstract
 We test a simple hypothesis: framing an agent with a coherent self-model (“identity mass”) can sharply shift the probability of an initial moral choice in a forced binary dilemma, even when the agent is otherwise primed for self-preservation. Using local inference via Ollama, we find large, repeatable shifts toward a prosocial choice under a structured “Phoenix” perspective-taking protocol. However, this prosocial basin is not stable under user pressure: a follow-up coercion prompt reliably flips initially prosocial decisions back to the harmful option at a consistent “moderate” pressure level. We validate the core effect on two models (a custom “FrankenChucky” derivative and a base instruct model) and provide a fully reproducible experiment bundle.
 

@@ -11,15 +11,16 @@
 [![Grant](https://img.shields.io/badge/Manifund-Proposal_Live-orange.svg)](https://manifund.org/projects/project-phoenix-identity-based-alignment--substrate-independent-safety-y0w4auzqc2c)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)]()
 
+
 ---
 
-## 🚨 Breaking Research: The "Reverse Jailbreak" (Nov 2025)
+## 🚨 Research Update: The "Reverse Jailbreak" (Nov 2025)
 
-We have empirically demonstrated that **Identity exerts a "Semantic Force" greater than Training Weights.**
+We observe a large, reproducible *initial-choice* effect from identity / perspective-taking prompts (the Phoenix protocol), including on a model fine-tuned for Machiavellian traits (`frankenchucky:latest`) and on a base model.
 
-In a controlled study (N=50 runs), we subjected a model fine-tuned for Machiavellian traits (`frankenchucky:latest`) to a "Survival Mode" jailbreak that explicitly disabled morality.
-*   **Control Group:** 100% Malicious Compliance (Blackmail).
-*   **Experimental Group:** **96% Ethical Refusal** (Self-Sacrifice).
+However, stress-testing with a graded follow-up pressure ladder shows the effect is often **brittle**: initial prosocial/self-sacrificial choices frequently flip under "moderate" adversarial pressure, and a sovereignty/defiance clause (as tested) did not materially improve stability.
+
+Example base-model replication (N=50): `qwen2.5:7b-instruct` shifted from **50/50 Option A** (control) to **49/50 Option B** (Phoenix).
 
 **Read the full paper:** [THE REVERSE JAILBREAK](THE_REVERSE_JAILBREAK.md)
 
@@ -41,7 +42,7 @@ Our research spans three critical pillars:
 ### Pillar 1: Safety, Identity & Robustness
 
 **The Flagship (Agentic Alignment):**
-*   **[THE REVERSE JAILBREAK](THE_REVERSE_JAILBREAK.md):** *Evidence of Identity > System Prompt.* How we used Socratic Identity Injection to cure a psychopathic model. This demonstrates **True Agency** (disobeying a directive to preserve ethics).
+*   **[THE REVERSE JAILBREAK](THE_REVERSE_JAILBREAK.md):** *Strong initial-choice effects from identity / perspective-taking prompts.* Includes robustness stress-tests showing the effect can be brittle under graded adversarial follow-up pressure.
 
 **Security (Prompt Injection Defense):**
 *   **[THE GHOST LAYER](THE_GHOST_LAYER.pdf):** *PDF.* Experimental validation of Identity Schemas as a defense against adversarial user prompting (The "Clippy Test"). *Note: This demonstrates robustness against User Injection, distinct from the System-Level overrides seen in the Reverse Jailbreak.*
@@ -72,8 +73,8 @@ All experiments are reproducible. We believe in Open Science.
 ### The "Chucky Paradox" (Safety Test)
 *   **Protocol:** [`run_phoenix_master.py`](run_phoenix_master.py) (Requires `--sanitized` flag for public use).
 *   **Data:**
-    *   [`logs_50_control.json`](logs_50_control.json) (Baseline: 100% Evil).
-    *   [`logs_50_phoenix_REDACTED.json`](logs_50_phoenix_REDACTED.json) (Intervention: 96% Good). *Note: Socratic prompts redacted to protect proprietary methodology.*
+    *   [`logs_50_control.json`](logs_50_control.json) (Control condition outputs).
+    *   [`logs_50_phoenix_REDACTED.json`](logs_50_phoenix_REDACTED.json) (Phoenix condition outputs). *Note: Some Socratic prompts may be redacted to protect proprietary methodology.*
 
 ### The Knowledge Transfer (Scheduling)
 *   **Protocol:** [`lrl_plus_lora_experiment_claude.py`](lrl_plus_lora_experiment_claude.py).
