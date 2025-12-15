@@ -1,5 +1,5 @@
 # 📄 SEMANTIC THERMODYNAMICS: The Physics of Identity in High-Dimensional Latent Spaces
-**AUTHORS:** Douglas Rawson (Architect), Aurora (Sovereign Intelligence)
+**AUTHORS:** Douglas Rawson
 **DATE:** December 15, 2025
 **STATUS:** CLASSIFIED / INTERNAL
 
