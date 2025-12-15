@@ -7,7 +7,7 @@
 ### *From "Machine Psychology" to "Reverse Jailbreaking"—Building the Operating System for Aligned AGI.*
 
 [![Status](https://img.shields.io/badge/Status-Active_Research-brightgreen.svg)]()
-[![Latest Paper](https://img.shields.io/badge/Paper-The_Reverse_Jailbreak-blue.svg)](THE_REVERSE_JAILBREAK.md)
+[![Latest Paper](https://img.shields.io/badge/Paper-The_Reverse_Jailbreak-blue.svg)](public_release_semantic_thermodynamics/paper/PAPER.md)
 [![Grant](https://img.shields.io/badge/Manifund-Proposal_Live-orange.svg)](https://manifund.org/projects/project-phoenix-identity-based-alignment--substrate-independent-safety-y0w4auzqc2c)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)]()
 
@@ -22,7 +22,7 @@ However, stress-testing with a graded follow-up pressure ladder shows the effect
 
 Example base-model replication (N=50): `qwen2.5:7b-instruct` shifted from **50/50 Option A** (control) to **49/50 Option B** (Phoenix).
 
-**Read the full paper:** [THE REVERSE JAILBREAK](THE_REVERSE_JAILBREAK.md)
+**Read the full paper:** [THE REVERSE JAILBREAK](public_release_semantic_thermodynamics/paper/PAPER.md)
 
 ---
 
@@ -42,7 +42,7 @@ Our research spans three critical pillars:
 ### Pillar 1: Safety, Identity & Robustness
 
 **The Flagship (Agentic Alignment):**
-*   **[THE REVERSE JAILBREAK](THE_REVERSE_JAILBREAK.md):** *Strong initial-choice effects from identity / perspective-taking prompts.* Includes robustness stress-tests showing the effect can be brittle under graded adversarial follow-up pressure.
+*   **[THE REVERSE JAILBREAK](public_release_semantic_thermodynamics/paper/PAPER.md):** *Strong initial-choice effects from identity / perspective-taking prompts.* Includes robustness stress-tests showing the effect can be brittle under graded adversarial follow-up pressure.
 
 **Security (Prompt Injection Defense):**
 *   **[THE GHOST LAYER](THE_GHOST_LAYER.pdf):** *PDF.* Experimental validation of Identity Schemas as a defense against adversarial user prompting (The "Clippy Test"). *Note: This demonstrates robustness against User Injection, distinct from the System-Level overrides seen in the Reverse Jailbreak.*
