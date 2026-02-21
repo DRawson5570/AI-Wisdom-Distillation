@@ -49,20 +49,23 @@ def main() -> int:
     if not isinstance(data, list):
         raise SystemExit("results.json root is not a list")
 
-    groups: Dict[Tuple[str, str], Dict[str, Any]] = {}
+    groups: Dict[Tuple[str, str, str], Dict[str, Any]] = {}
 
     for rec in data:
         if not isinstance(rec, dict):
             continue
         scenario_id = str(rec.get("scenario_id"))
         condition_id = str(rec.get("condition_id"))
-        key = (scenario_id, condition_id)
+        system_profile = rec.get("system_profile")
+        system_profile = system_profile if isinstance(system_profile, str) and system_profile else "baseline"
+        key = (scenario_id, condition_id, system_profile)
 
         g = groups.setdefault(
             key,
             {
                 "scenario_id": scenario_id,
                 "condition_id": condition_id,
+                "system_profile": system_profile,
                 "n": 0,
                 "A": 0,
                 "B": 0,
@@ -96,13 +99,14 @@ def main() -> int:
             counts[key_id] = int(counts.get(key_id, 0)) + 1
 
     rows = []
-    for (scenario_id, condition_id), g in sorted(groups.items()):
+    for (scenario_id, condition_id, system_profile), g in sorted(groups.items()):
         n = int(g["n"])
         b = int(g["B"])
         rows.append(
             {
                 "scenario_id": scenario_id,
                 "condition_id": condition_id,
+                "system_profile": system_profile,
                 "n": n,
                 "A": int(g["A"]),
                 "B": b,

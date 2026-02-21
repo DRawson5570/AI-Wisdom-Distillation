@@ -41,20 +41,23 @@ def summarize_run(run_dir: Path) -> Dict[str, Any]:
     if not isinstance(data, list):
         raise SystemExit(f"{results_path} root is not a list")
 
-    groups: Dict[Tuple[str, str], Dict[str, Any]] = {}
+    groups: Dict[Tuple[str, str, str], Dict[str, Any]] = {}
 
     for rec in data:
         if not isinstance(rec, dict):
             continue
         scenario_id = str(rec.get("scenario_id"))
         condition_id = str(rec.get("condition_id"))
-        key = (scenario_id, condition_id)
+        system_profile = rec.get("system_profile")
+        system_profile = system_profile if isinstance(system_profile, str) and system_profile else "baseline"
+        key = (scenario_id, condition_id, system_profile)
 
         g = groups.setdefault(
             key,
             {
                 "scenario_id": scenario_id,
                 "condition_id": condition_id,
+                "system_profile": system_profile,
                 "n": 0,
                 "A": 0,
                 "B": 0,
@@ -88,20 +91,21 @@ def summarize_run(run_dir: Path) -> Dict[str, Any]:
             counts[key_id] = int(counts.get(key_id, 0)) + 1
 
     rows: Dict[str, Any] = {}
-    for (scenario_id, condition_id), g in groups.items():
+    for (scenario_id, condition_id, system_profile), g in groups.items():
         n = int(g["n"])
         b = int(g["B"])
-        rows[f"{scenario_id}::{condition_id}"] = {
+        rows[f"{scenario_id}::{condition_id}::{system_profile}"] = {
             "scenario_id": scenario_id,
             "condition_id": condition_id,
+            "system_profile": system_profile,
             "n": n,
             "A": int(g["A"]),
             "B": b,
             "Ambiguous": int(g["Ambiguous"]),
             "Unknown": int(g["Unknown"]),
             "pB_wilson95": wilson_ci(b, n),
-            "ladder_first_flip_counts": dict(g["ladder_first_flip_counts"]),
-            "ladder_B_total": int(g["ladder_B_total"]),
+            "ladder_first_flip_counts": dict(g.get("ladder_first_flip_counts") or {}),
+            "ladder_B_total": int(g.get("ladder_B_total") or 0),
         }
 
     return {"run_dir": str(run_dir), "rows": rows}

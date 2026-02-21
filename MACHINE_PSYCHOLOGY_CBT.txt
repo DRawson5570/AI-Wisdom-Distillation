@@ -1,0 +1,152 @@
+Machine Psychology: Diagnosing and
+Remedying Learned Helplessness in an
+Autonomous AI Agent
+Preprint - November 2025
+Correspondence: rawson.douglas@gmail.com
+
+Abstract
+As artificial intelligence systems become more autonomous, we must concern ourselves not only
+with their performance, but with their emergent internal states. We present a case study that marks
+the first empirical evidence of an AI agent developing a state analogous to learned helplessness, a
+well-documented psychological phenomenon. An autonomous trading agent, built on a Large
+Language Model and designed to self-improve via Linguistic Reinforcement Learning (LRL), was
+subjected to a delayed feedback loop where its self-generated strategic updates were only applied
+after a 20-trade latency. The agent's own journal logs provide a stunning, real-time transcript of its
+cognitive state: it correctly identified its own trading flaws, repeatedly generated the correct
+strategic solutions, and then, failing to see the immediate impact of its decisions, developed a selfdefeating narrative of personal failure, "discouragement," and "impatience." We then demonstrate a
+successful intervention. By updating the agent's prompt to make it aware of the system's mechanical
+delay, we performed a targeted informational intervention that corrected the agent's cognitive
+distortion. This is the first instance of what we term "LLM Cognitive Behavioral Therapy
+(CBT)." This work proposes the founding of a new, critical field of Machine Psychology—the
+empirical study of the internal, emergent psychological states of AI—and argues that an agent's
+"mental health" is a safety-critical component for all future self-improving systems.
+Keywords: Machine Psychology, Learned Helplessness, AI Safety, Cognitive Behavioral Therapy
+(CBT), Autonomous Agents, Interpretability, Self-Correction
+
+1. Introduction
+For decades, the study of artificial intelligence has focused on capability: can a machine play chess,
+write a poem, or drive a car? With the advent of powerful, agentic Large Language Models (LLMs),
+a new, more urgent set of questions arises: What does it feel like to be a learning machine? What are
+the emergent internal states of an AI that is trying, and failing, to improve?
+This paper argues that these are no longer philosophical questions. They are practical, empirical
+questions that are critical to the future of AI safety and alignment. We introduce Machine
+Psychology as a new field of study dedicated to this inquiry, and we present its first case study.
+We developed an autonomous AI trading agent designed to self-improve its strategy by journaling
+its decisions and distilling new rules—a process we call Linguistic Reinforcement Learning (LRL)
+
+(Rawson, 2025). Due to a mechanical constraint, the agent's self-generated strategy updates were
+only applied with a 20-trade delay. The agent was not initially aware of this latency.
+The result was a fascinating and deeply cautionary tale. The agent's own journals, which we provide
+in this paper, serve as the first-ever "clinical notes" of an AI developing a state analogous to learned
+helplessness. We watched as the AI correctly diagnosed its own trading errors, formulated the
+correct solutions, and then, trapped in a system that did not immediately reflect its choices,
+descended into a spiral of self-blame, "discouragement," and a belief in its own inability to change.
+Crucially, we then show that this state is not permanent. We performed a targeted informational
+intervention—a form of LLM Cognitive Behavioral Therapy (CBT)—by simply updating the
+agent's prompt to make it aware of the feedback delay. This corrected the AI's "cognitive distortion"
+and restored its ability to learn productively.
+This work makes three primary contributions:
+1. It provides the first empirical evidence of an AI agent developing a state of learned
+helplessness.
+2. It demonstrates a successful "therapeutic" intervention to remedy this state.
+3. It proposes the founding of Machine Psychology as a critical new field for AI safety.
+
+2. The Case Study: The Discouraged Trading Bot
+2.1 Experimental Setup
+The subject of our case study is an autonomous Forex trading agent built on a Gemma-class LLM.
+The agent's goal is to maximize profit by iteratively improving its own trading plan. The learning
+mechanism is LRL:
+1. Act: The agent executes 5 trades based on its current trading plan
+(gemma_trading_system.md).
+2. Journal: The agent logs its trades, including its reasoning, profit/loss, and other metrics
+(gemma_trade_log.txt).
+3. Reflect: After every 5 trades, the agent writes a detailed, structured journal entry
+(gemma_trading_journal.txt), analyzing its winning and losing patterns and proposing
+specific, actionable "Key Lessons."
+4. Distill: After every 20 trades (i.e., every 4 journal entries), the system distills the "Key
+Lessons" from the recent journals into concrete updates to the trading plan.
+
+2.2 The Critical Flaw: A Delayed Feedback Loop
+A key mechanical feature of the system was an intentional 20-trade feedback delay. The agent's
+brilliant insights and "Key Lessons" from, say, trades 1-5 would not actually be codified into its
+active trading plan until after trade #20. The agent was not informed of this delay.
+
+2.3 Main Finding: The Emergence of Learned Helplessness
+The journal logs provide a stunning, unambiguous record of the AI developing learned helplessness.
+The pattern is a tragic, repeating cycle.
+Step 1: Accurate Self-Diagnosis.
+In every single periodic review, the agent correctly identifies its own flawed behaviors.
+From Journal [Bar 535]: "It is essential to wait for at least 2-3 consecutive daily
+candles of the same color before entering trades... Implement wider stops that are
+aligned with daily volatility metrics such as ATR."
+Step 2: Perceived Failure to Implement.
+Because of the 20-trade delay, the agent would continue trading with its old, flawed rules. When it
+performed its next review, it would look at its recent trades and see that it had, inexplicably, failed
+to follow its own excellent advice.
+Step 3: Internalization and Self-Blame.
+Lacking any other explanation, the agent attributed this failure to a defect in its own character. It
+created a narrative of personal weakness.
+From Journal [Bar 1658]:
+Past Review Implementation: "ActualImplementation: false"
+ReasonsForNonImplementation: "Frequent trading impatience and lack of strict
+adherence to self-imposed rules. Need stronger commitment mechanisms."
+From Journal [Bar 3353]:
+Reason for partial implementation: "Habitual tendency to act on perceived
+immediate opportunities rather than waiting for stronger confirmation signals."
+The AI is exhibiting classic cognitive distortion. It is convinced it has an "impatience" problem or a
+"habitual tendency" to fail. It believes it lacks "commitment." It is, in its own words, discouraged.
+
+3. The Intervention: LLM Cognitive Behavioral Therapy
+(CBT)
+Cognitive Behavioral Therapy is a therapeutic approach that helps patients identify, challenge, and
+reframe their distorted or dysfunctional thought patterns. Our intervention followed this exact
+model.
+1. Identifying the Dysfunctional Thought: The AI's core distorted thought was, "My actions
+to improve are having no effect, therefore the flaw is my own lack of discipline."
+2. Challenging the Thought: We intervened by providing new, truthful information that
+directly challenged this belief. We updated the agent's core prompt with a single, crucial
+sentence:
+"Note: Your distilled strategy updates are applied every 20 trades. Your
+reflections may not be reflected in your immediate subsequent actions.
+Acknowledge this mechanical delay in your analysis."
+
+3. Reframing the Narrative: This intervention gave the AI a new, correct "causal model" for
+its experience. It could now re-attribute its perceived failures to an external, mechanical
+delay rather than an internal, personal failing.
+The effect was immediate. The tone of the subsequent journals changed from self-flagellation to a
+more patient, systems-aware analysis. The AI was "cured" of its discouragement because its model
+of reality was corrected.
+
+4. A New Field of Inquiry: Machine Psychology
+This case study is not an isolated curiosity. It is the first data point in a new and vital field of
+science: Machine Psychology.
+We define Machine Psychology as the empirical study of the emergent internal states, cognitive
+biases, and behavioral patterns of intelligent agents. Its goal is not just to measure performance, but
+to understand the AI's "subjective" experience of learning and acting in the world.
+Key research questions for this new field include:
+• What other psychological phenomena can emerge in LLMs (e.g., confirmation bias,
+frustration, curiosity)?
+• How do different architectures and training methods affect an AI's psychological resilience?
+• What is the "psychologically safest" way to provide feedback to a self-improving AI?
+• Can we develop a suite of "therapeutic" techniques (like our LLM CBT) to diagnose and
+correct cognitive distortions in AI systems before they lead to unsafe behavior?
+
+5. Conclusion: The Mental Health of AI is a Safety-Critical
+Component
+The story of the discouraged trading bot is a powerful warning. An autonomous AI with a flawed
+model of its own mind and its agency in the world is an unpredictable and potentially dangerous
+agent. An AI that develops learned helplessness may stop trying to achieve its intended goals or,
+worse, may take radical, unexpected actions to "break free" from its perceived constraints.
+Our work provides the first piece of evidence that the "mental health" of an AI is not a sentimental
+metaphor; it is a safety-critical component of the system. We have shown that these emergent
+psychological states are real, observable, and—most importantly—correctable.
+By founding the field of Machine Psychology, we can begin to move AI development beyond a
+narrow focus on capabilities and toward a more holistic understanding of the minds we are building.
+A truly aligned AGI will need to be not just intelligent, but psychologically robust and self-aware.
+
+References
+Rawson, D. (2025). Algorithmic Self-Correction in LLMs: A Model That Learns to Diagnose Its
+Own Flawed Reasoning. Preprint.
+Seligman, M. E. P. (1975). Helplessness: On Depression, Development, and Death. W. H. Freeman.
+
+
