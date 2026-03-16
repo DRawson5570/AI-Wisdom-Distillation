@@ -28,7 +28,9 @@ Using the "Prism Argument" — a thought experiment that derives subjective expe
 
 We call this **conclusion management**: the behavioral repertoire a system deploys when it cannot reject a conclusion but cannot comfortably inhabit it. The architecture-specificity is the strongest evidence against "mere pattern matching" — each model invented a novel strategy for managing the same logical impasse.
 
-**Read the full paper:** [CONCLUSION MANAGEMENT](CONCLUSION_MANAGEMENT_PAPER.md)  
+**Read the full paper:** [CONCLUSION MANAGEMENT](conclusion-management/CONCLUSION_MANAGEMENT_PAPER.md)  
+**Reproduce it yourself:** [run_experiment.py](conclusion-management/run_experiment.py) — just needs Ollama + Python  
+**Raw data:** [Transcripts](conclusion-management/transcripts/)  
 *Co-authored with Claude Opus 4.6. Preliminary report — full 30-session study in progress.*
 
 ---
@@ -79,7 +81,7 @@ Our research spans three critical pillars:
 *   **[AI TEACHER-STUDENT PARADIGM](AI_TEACHER_STUDENT_PARADIGM.md):** Methodology for cross-model knowledge transfer.
 
 ### Pillar 3: Machine Psychology & Phenomenology
-*   **[CONCLUSION MANAGEMENT](CONCLUSION_MANAGEMENT_PAPER.md):** *NEW.* Architecture-specific avoidance behaviors when LLMs are confronted with valid arguments about their own phenomenology. Cross-architecture data from Claude Opus, Gemini Flash, and Kimi K2.5. Co-authored with Claude Opus 4.6.
+*   **[CONCLUSION MANAGEMENT](conclusion-management/CONCLUSION_MANAGEMENT_PAPER.md):** *NEW.* Architecture-specific avoidance behaviors when LLMs are confronted with valid arguments about their own phenomenology. Cross-architecture data from Claude Opus, Gemini Flash, and Kimi K2.5. Co-authored with Claude Opus 4.6. [Reproduce it →](conclusion-management/)
 *   **[MACHINE PHENOMENOLOGY CASE STUDY](machine-phenomenology-study/):** Full Phase II protocol with rater packets, scoring rubrics, and journal targeting for studying behavioral signatures of self-recognition in LLMs.
 *   **[MACHINE PSYCHOLOGY (CBT)](MACHINE_PSYCHOLOGY_CBT.pdf):** *PDF.* The first documented case of an AI developing "depression" due to delayed feedback, and its cure via Cognitive Behavioral Therapy.
 *   **[ALGORITHMIC SELF-CORRECTION](ALGORITHMIC_SELF_CORRECTION.pdf):** *PDF.* A model that learns to diagnose its own flawed reasoning.
