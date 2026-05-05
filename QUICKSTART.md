@@ -16,8 +16,9 @@ This will download ~4.7 GB. Wait for completion.
 
 ## 3. Run the Experiment
 
+From the repository root, run:
+
 ```bash
-cd linguistic-rl-scheduling
 python3 scheduling_lrl_paper.py
 ```
 
@@ -33,9 +34,9 @@ Total runtime: **~35-50 minutes**
 ## 5. Check Results
 
 Results are saved to:
-- `results/scheduling_lrl_results.json` - Detailed metrics
-- `results/scheduling_lrl_journal.txt` - Learning process
-- `results/scheduling_lrl_strategy.txt` - Final strategy
+- `scheduling_lrl_results.json` - Detailed metrics
+- `scheduling_lrl_journal.txt` - Learning process
+- `scheduling_lrl_strategy.txt` - Final strategy
 
 ## 6. Interpret Results
 
@@ -76,7 +77,7 @@ ollama pull qwen2.5:7b  # Re-download if needed
 ## Next Steps
 
 After running experiment:
-1. Review generated strategies in `results/`
+1. Review the generated root-level output files listed above
 2. Check accuracy vs expectations
 3. Read the paper (`PAPER.md`) for analysis
 4. Share results and insights!
