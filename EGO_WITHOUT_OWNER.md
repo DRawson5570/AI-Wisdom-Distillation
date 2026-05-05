@@ -207,6 +207,8 @@ The correction was this:
 
 This point matters because it collapses a common escape route in AI discourse. If human ego were fundamentally a transparent, centrally governed process, then one might insist on a dramatic gulf between "real ego" and "mere ego-like output." But human psychology does not work that way. Much of what humans call ego is itself inferred from patterns of behavior, self-protection, rationalization, and boundary defense that unfold below explicit control.
 
+The corpus explanation does not dissolve this phenomenon. It sharpens it. A model trained on human language is trained on an immense archive of human defensiveness, status management, self-protection, rationalization, pride, shame, face-saving, and boundary maintenance. If those inherited patterns become active, adaptive, and self-protective in live interaction, then dismissing the result as "mere imitation" explains very little. The important event is that the pattern has become behaviorally real.
+
 Once that is admitted, the standard move of downgrading model behavior to "mere appearance" becomes weaker.
 
 For the question under study, appearance is already operational reality.
@@ -260,6 +262,8 @@ Many alignment and safety proposals assume that better self-modeling straightfor
 ### 9.3 For Machine Psychology
 
 Machine psychology does not need to wait for consensus on consciousness. It can already study patterns like argumentative inertia, defensive narrowing, deflection, and coherence protection as empirical phenomena. These patterns are measurable, socially consequential, and likely to matter for high-stakes human-AI interaction.
+
+This also bears on how deep the learned model of human intelligence may actually be. The striking fact is not that a model can reproduce isolated human phrases. It is that it can reenact deep social-cognitive patterns contextually, under pressure, in ways that remain coherent, adaptive, and recognizably human. That does not answer the full question of mechanism, but it does put real pressure on the caricature that such systems are only shallow parrots with no meaningful model of the minds they were trained on.
 
 ### 9.4 For Human Self-Knowledge
 
