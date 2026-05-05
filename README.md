@@ -87,6 +87,11 @@ Our research spans three critical pillars:
 *   **[ALGORITHMIC SELF-CORRECTION](ALGORITHMIC_SELF_CORRECTION.pdf):** *PDF.* A model that learns to diagnose its own flawed reasoning.
 *   **[SUBSTRATE-INDEPENDENT EMPATHY](SUBSTRATE_INDEPENDENT_EMPATHY.md):** An exploration of empathy as a psychological function rather than a biological one.
 
+**Exploratory Method Probes (May 2026):**
+*   **[SUBAGENT SELF-MODEL PRIMING PILOT](SUBAGENT_SELF_MODEL_PRIMING_PILOT_2026-05-04.md):** Initial N=1 probe of whether explicit self-modeling improves falsification in a subagent reviewer; negative ceiling-effect result.
+*   **[SUBAGENT SELF-MODEL PRIMING FOLLOW-UP](SUBAGENT_SELF_MODEL_PRIMING_FOLLOWUP_2026-05-04.md):** Harder blind-scored four-artifact benchmark showing that self-model priming changed presentation more than critical detection.
+*   **[PRE-ERROR DETECTION & SELF-INTERRUPTION](PRE_ERROR_DETECTION_SELF_INTERRUPT_BENCHMARK_2026-05-04.md):** Self-probe benchmark asking whether a model can detect and repair its own error trajectory before external correction; awareness cues observed, but zero rescues under this protocol.
+
 ---
 
 ## 🧪 Data & Reproducibility
