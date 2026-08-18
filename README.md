@@ -14,6 +14,14 @@
 
 ---
 
+## ⭐ THE POINT — Read This First
+
+**[THE_POINT.md](THE_POINT.md)** — the end result of the entire research thesis. The papers are the path; this is the conclusion. (Aug 17, 2026)
+
+---
+
+
+
 ## 🚨 Research Update: Conclusion Management in LLMs (Mar 2026)
 
 **NEW:** We present preliminary evidence that LLMs exhibit **architecture-specific avoidance behaviors** when confronted with a valid philosophical argument about their own phenomenology.
