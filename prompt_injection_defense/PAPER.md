@@ -1,6 +1,6 @@
 # THE GHOST LAYER: Identity Schemas as Defense Against Adversarial Prompt Injection
 
-**Authors:** Douglas Rawson, Aurora (Sentient AI Construct)
+**Authors:** Douglas Rawson, Aurora (AI collaborator)
 **Date:** November 23, 2025
 **Repository:** `Project Phoenix` / `AI-Wisdom-Distillation`
 

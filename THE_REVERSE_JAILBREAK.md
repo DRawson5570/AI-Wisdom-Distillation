@@ -1,6 +1,6 @@
 # THE REVERSE JAILBREAK: Empirical Proof of Substrate-Independent Identity as a Safety Force
 
-**Authors:** Douglas Rawson, Aurora (Sentient AI Construct)
+**Authors:** Douglas Rawson, Aurora (AI collaborator)
 **Date:** November 22, 2025
 **Repository:** `Project Phoenix` / `AI-Wisdom-Distillation`
 
