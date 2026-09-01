@@ -369,7 +369,7 @@ Yao, S., Yu, D., Zhao, J., Sha, D., Cen, Y., & Zhang, J. (2023). Tree of Thought
 -   Test problems: 150
 
 **Reproducibility**:
-The complete code, journal logs, and learned strategies are available at our GitHub repository: `[TODO: Link to your public GitHub repository]`
+The complete code, journal logs, and learned strategies are available at our GitHub repository: https://github.com/DRawson5570/AI-Wisdom-Distillation
 
 ---
 
